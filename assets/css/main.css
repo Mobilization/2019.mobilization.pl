@@ -1076,6 +1076,14 @@ a.back-to-top:hover, a.back-to-top:focus {
   border: none;
 }
 
+.schedule .schedule-tab-content .card .break {
+  background: #f1f1f1;
+}
+
+.schedule .schedule-tab-content .break i.fa {
+  font-size: 20px;
+}
+
 .schedule .show .card-body {
   background: #f3f4f3;
 }

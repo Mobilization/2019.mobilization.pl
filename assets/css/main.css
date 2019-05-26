@@ -1022,11 +1022,9 @@ a.back-to-top:hover, a.back-to-top:focus {
   border-radius: 0px;
   position: relative;
   cursor: pointer;
-  height: 90px;
-  width: 255px;
+  height: 80px;
   border-bottom: 1px solid #e5e5e5;
   transition: all 500ms ease;
-  padding: 20px 20px;
 }
 
 .schedule .schedule-tab-title .nav-tabs .nav-item.show .nav-link, .schedule .schedule-tab-title .nav-tabs .nav-link.active,
@@ -1037,6 +1035,11 @@ a.back-to-top:hover, a.back-to-top:focus {
   -moz-transition: all 0.3s ease-in-out 0s;
   -webkit-transition: all 0.3s ease-in-out 0s;
   -o-transition: all 0.3s ease-in-out 0s;
+}
+
+.schedule .schedule-tab-title .nav-tabs .nav-item {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .schedule .schedule-tab-title .nav-tabs .nav-item.show .nav-link h4, .schedule .schedule-tab-title .nav-tabs .nav-link.active h4,
@@ -1085,10 +1088,8 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .schedule .card-header .images-box {
-  width: 70px;
-  height: 70px;
-  float: left;
-  margin-right: 20px;
+  margin-right: 0px;
+  padding-right: 0px;
 }
 
 .schedule .card-header .images-box img {

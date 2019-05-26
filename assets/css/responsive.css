@@ -22,9 +22,6 @@
   .counter-section .counter p {
     font-size: 14px;
   }
-  .schedule .schedule-tab-title .nav-tabs .nav-link {
-    width: 210px;
-  }
   #pricing .price-block-wrapper .pricing-list {
     padding: 10px 35px 10px 45px;
   }
@@ -59,9 +56,6 @@
   }
   .accordion .header-title {
     font-size: 12px;
-  }
-  .schedule .schedule-tab-title .nav-tabs .nav-link {
-    width: 150px;
   }
   .schedule .card-header h4 {
     font-size: 14px;
@@ -108,9 +102,6 @@
   }
   .countdown-timer .heading-count h2 {
     font-size: 25px;
-  }
-  .schedule .schedule-tab-title .nav-tabs .nav-link {
-    width: 150px;
   }
   .schedule .card-header h4 {
     font-size: 14px;
@@ -194,9 +185,6 @@
   }
   .schedule .card-body {
     padding: 15px;
-  }
-  .schedule .schedule-tab-title .nav-tabs .nav-link {
-    width: 288px;
   }
   .accordion .header-title {
     font-size: 11px;

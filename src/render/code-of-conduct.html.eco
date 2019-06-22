@@ -3,10 +3,9 @@ layout: 'main'
 title: 'Code of conduct'
 ---
 
-<%- @partial('header.html', @) %>
-<%- @partial('banner-min.html', @) %>
+<%- @partial('header-min.html', @) %>
 
-<section id="main-container" class="main-container">
+<section id="code-of-conduct" class="section-padding">
     <div class="container">
         <div class="row">
             <div class="col-md-4">
@@ -88,4 +87,4 @@ title: 'Code of conduct'
 
 </section><!-- Main container end -->
 
-<%- @partial('footer.html', @) %>
+<%- @partial('footer-min.html', @) %>

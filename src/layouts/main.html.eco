@@ -2,88 +2,38 @@
 <html lang="en">
 
 <head>
-<!-- Basic Page Needs ================================================== -->
-<meta charset="utf-8">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-<!-- Mobile Specific Metas ================================================== -->
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+  <title>Mobilization IX</title>
 
-<!-- Site Title -->
-<title>Mobilization VIII</title>
-
-<!-- Favicon -->
-<link rel="shortcut icon" href="assets/mobilization/images/favicon.ico" type="image/x-icon">
-<link rel="icon" href="assets/mobilization/images/favicon.ico" type="image/x-icon">
-
-<!-- FB IMAGE -->
-<meta property="og:image" content="https://2018.mobilization.pl/assets/mobilization/images/mobilization-logo-1.png" />
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:width" content="300">
-<meta property="og:image:height" content="300">
-
-<!-- CSS
-================================================== -->
-<!-- Bootstrap -->
-<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-<!-- Template styles-->
-<link rel="stylesheet" href="assets/css/style.css">
-<!-- Responsive styles-->
-<link rel="stylesheet" href="assets/css/responsive.css">
-<!-- FontAwesome -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
-integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-<!-- Animation -->
-<link rel="stylesheet" href="assets/css/animate.css">
-<!-- Colorbox -->
-<link rel="stylesheet" href="assets/css/colorbox.css">
-<!-- Modal video -->
-<link rel="stylesheet" href="assets/css/modal-video.min.css">
-<!-- Mobilization -->
-<link rel="stylesheet" href="assets/mobilization/css/mobilization.css">
-
-<link rel="stylesheet" type="text/css" href="assets/css/map.css"/>
-
-
-<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
-
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="assets/fonts/line-icons.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/slicknav.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/nivo-lightbox.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/animate.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/responsive.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous" />
 </head>
 
 <body>
+  <%- @content %>
 
-<div class="body-inner">
-
-<%- @content %>
-
-<!-- Javascript Files
-================================================== -->
-<!-- initialize jQuery Library -->
-<script src="assets/js/jquery.js"></script>
-<!-- Bootstrap jQuery -->
-<script src="assets/js/bootstrap.min.js"></script>
-<!-- Counter -->
-<script src="assets/js/jquery.counterup.min.js"></script>
-<!-- Countdown -->
-<script src="assets/js/jquery.jCounter.js"></script>
-<!-- Waypoints -->
-<script src="assets/js/waypoints.min.js"></script>
-<!-- Color box for Popup-->
-<script src="assets/js/jquery.colorbox.js"></script>
-<!-- Smoothscroll -->
-<script type="text/javascript" src="assets/js/smoothscroll.js"></script>
-<!-- Modal video -->
-<script src="assets/js/jquery.modal-video.js"></script>
-<!-- Template custom -->
-<script type="text/javascript" src="assets/js/custom.js"></script>
-<!-- TomTom Maps -->
-<script type="text/javascript" src="assets/js/tomtom.min.js"></script>
-
-</div>
-<!-- Body inner end -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="assets/js/jquery-min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/jquery.countdown.min.js"></script>
+  <script src="assets/js/jquery.nav.js"></script>
+  <script src="assets/js/jquery.easing.min.js"></script>
+  <script src="assets/js/wow.js"></script>
+  <script src="assets/js/jquery.slicknav.js"></script>
+  <script src="assets/js/nivo-lightbox.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/form-validator.min.js"></script>
+  <script src="assets/js/contact-form-script.min.js"></script>
+  <script src="assets/js/map.js"></script>
 </body>
 </html>

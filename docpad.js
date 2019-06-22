@@ -12,12 +12,12 @@ var speakersImgBaseUrl = imgBaseUrl + 'speakers/';
 var partnersImgBaseUrl = imgBaseUrl + 'partners/';
 
 docpadConfig = {
-    outPath: '../2018.mobilization.pl-gh-pages/',
+    outPath: '../2019.mobilization.pl-gh-pages/',
     templateData: {
         site: {
-            url: "http://2018.mobilization.pl",
+            url: "http://2019.mobilization.pl",
             oldUrls: ['www.mobilization.pl'],
-            title: "Mobilization 2018",
+            title: "Mobilization 2019",
             description: "Mobilization is a conference dedicated to mobile technologies. The main scope is development of mobile solutions aimed at smartphones and tablets, with particular interest in Android and iOS mobile platforms.",
             keywords: "mobilization, conference, mobile conference, Łódź",
             author: "Java User Group Łódź",
@@ -25,15 +25,16 @@ docpadConfig = {
             scripts: [],
             visibility: {
                 "call_for_papers": false,
-                "registration": true,
-                "talks": true,
-                "agenda": true,
-                "speakers": true,
+                "registration": false,
+                "talks": false,
+                "agenda": false,
+                "speakers": false,
                 "sponsors": true,
-                "partners": true
+                "partners": true,
+                "venue": false,
             },
             event: {
-                title: 'Mobilization 2018',
+                title: 'Mobilization 2019',
                 location: {
                     lat: 51.7505458,
                     lng: 19.4501351,
@@ -91,7 +92,7 @@ docpadConfig = {
                     "name" : "Fujitsu",
                     "logo_url" : sponsorsImgBaseUrl + "fujitsu.png",
                     "link" : "http://www.fujitsu.com/pl/about/local/lodz/"
-                }                               
+                }
                 ],
                 silver: [
                 {
@@ -144,7 +145,7 @@ docpadConfig = {
                     "link" : "https://twitter.com/ventepriveetech"
                 },
 
-                
+
                 ]
             },
             partners: {
@@ -191,7 +192,7 @@ docpadConfig = {
                         "name": "Meet.mobile",
                         "logo_url": partnersImgBaseUrl + 'meet-mobile.png',
                         "link": "https://www.meetup.com/meet-mobile/"
-                    },                    
+                    },
 		            {
                         "name": "Mobile Central Europe",
                         "logo_url": partnersImgBaseUrl + 'mceconf.png',
@@ -201,7 +202,7 @@ docpadConfig = {
                         "name": "Mobile Warsaw",
                         "logo_url": partnersImgBaseUrl + 'mobile-warsaw.png',
                         "link": "https://mobile-warsaw.pl/"
-                    },                    
+                    },
                     {
                         "name": "Women Techmakers Rzeszów",
                         "logo_url": partnersImgBaseUrl + 'wtm-rzeszow.png',
@@ -404,7 +405,7 @@ docpadConfig = {
                     "github": "https://github.com/pwittchen",
                     "linkedin" : "https://www.linkedin.com/in/piotrwittchen/",
                     "photo_url": speakersImgBaseUrl + "piotr-wittchen.png"
-                },     
+                },
                 "speaker-marcin-moskala": {//10
                     "firstname": "Marcin",
                     "lastname": "Moskała",
@@ -548,7 +549,7 @@ docpadConfig = {
                     "linkedin" : "https://www.linkedin.com/in/jakub-mazur-8350b244",
                     "www" : "https://wingu.de",
                     "photo_url": speakersImgBaseUrl + "jakub-mazur.png"
-                }, 
+                },
                 "speaker-oleksandr-tryshchenko": {//25
                     "firstname": "Oleksandr",
                     "lastname": "Tryshchenko",
@@ -702,7 +703,7 @@ docpadConfig = {
                     "title": "",
                     "description_html": "",
                     "speakers_keys": [],
-                },                
+                },
 				"talk-finally": {
                     "title": "Finally meeting",
                     "description_html": "Time to give thanks to all the sponsors and the organizer\'s team.",
@@ -870,7 +871,7 @@ docpadConfig = {
                     "audience_level": "Intermediate",
                     "language": "EN",
                     "speakers_keys": ['speaker-daniel-tull']
-                },  
+                },
                 "talk-connected-cars": { //23
                     "title": "Connected cars in a mobile world",
                     "description_html": "With the premiere of the new Mercedes A-Class and its next-generation MBUX interface, the connected car has been taken to the next level. Learn about connected infotainment systems, how mobile-friendly they are, and about the software that powers them.",
@@ -933,7 +934,7 @@ docpadConfig = {
                     "audience_level": "Intermediate",
                     "language": "EN",
                     "speakers_keys": ['speaker-raul-portales']
-                },          
+                },
                 "talk-ios-debugging": { //32
                     "title": "Take your iOS debugging skills to the next level",
                     "description_html": "Debugging is an essential, but complex part of app development. No wonder iOS developers have come up with tools that make this process less daunting. By applying a few tricks from our talk, you will be able to speed up debugging on all layers, from networking to the UI. This in turn will reduce the time you need to ship your product.",
@@ -1373,17 +1374,23 @@ docpadConfig = {
                 return value[0];
             });
         },
-        getSponsorLogoWidth: function(sponsor_category_key) {
+        getSponsorLogoClass: function(sponsor_category_key) {
             if (sponsor_category_key == "diamond") {
-                return 500;
+                return "col-md-6 col-sm-6 col-xs-12 mx-auto";
             }
             if (sponsor_category_key == "platinum") {
-                return 310;
+                return "col-md-4 col-sm-4 col-xs-12";
             }
             if (sponsor_category_key == "gold") {
-                return 260
+                return "col-md-3 col-sm-3 col-xs-12"
             }
-            return 220;
+            return "col-md-3 col-sm-3 col-xs-12";
+        },
+        getPartnerLogoClass: function(partner_category_key) {
+            if (partner_category_key == "organizers") {
+                return "col-md-6 col-sm-6 col-xs-12 mx-auto";
+            }
+            return "col-md-3 col-sm-3 col-xs-12";
         },
     },
     collections: {

@@ -1,0 +1,57 @@
+<!--HEADER-->
+<header id="header" class="header header-transparent ">
+    <div class="container">
+        <div class="row">
+            <div class="navbar-header">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/mobilization/images/mobilization-logo-1.png" alt="Mobilization 8">
+                    </a>
+                </div>
+                <!-- logo end -->
+            </div>
+            <!-- Navbar header end -->
+            <div class="site-nav-inner">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <nav class="collapse navbar-collapse navbar-responsive-collapse pull-right">
+                    <ul class="nav navbar-nav">
+                        <li><a href="/index.html#ts-sponsors">Sponsors</a></li>
+                        <li><a href="/index.html#ts-speakers">Speakers</a></li>
+                        <li><a href="/index.html#ts-talks">Talks</a></li>
+                        <li><a href="/index.html#ts-schedule">Agenda</a></li>
+                        <li><a href="/code-of-conduct.html">Code of conduct</a></li>
+                        <li><a href="/index.html#ts-venue">Contact</a></li>
+
+                        <% if @site.visibility.registration: %>
+                        <li class="header-ticket">
+                            <a class="ticket-btn btn-primary" href="https://bit.ly/mobilization8-register"><i class="fa fa-ticket"></i>
+                                Tickets
+                            </a>
+                        </li>
+                        <% end %>
+
+                        <% if @site.visibility.call_for_papers: %>
+                        <li class="header-ticket">
+                            <a class="ticket-btn btn-primary" href="https://bit.ly/mobilization8-c4p-webpage"><i class="fa fa-bullhorn"></i>
+                                Call for papers
+                            </a>
+                        </li>
+                        <% end %>
+                    </ul>
+                    <!--/ Nav ul end -->
+                </nav>
+                <!--/ Collapse end -->
+            </div>
+            <!--/ Site nav inner end -->
+        </div>
+        <!--/ Row end -->
+    </div>
+    <!--/ Container end -->
+</header>
+<!--/HEADER-->
+

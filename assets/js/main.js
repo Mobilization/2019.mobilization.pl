@@ -10,13 +10,7 @@
 
   // Sticky Nav
     $(window).on('scroll', function() {
-        if ($(window).scrollTop() > 200) {
-            $('.scrolling-navbar').addClass('top-nav-collapse');
-            $('.navbar-brand img').addClass('invert-color');
-        } else {
-            $('.scrolling-navbar').removeClass('top-nav-collapse');
-            $('.navbar-brand img').removeClass('invert-color');
-        }
+        refresh();
     });
 
     /* ==========================================================================
@@ -80,5 +74,17 @@
       });
 
   });
+
+  function refresh() {
+    if ($(window).scrollTop() > 20 || window.location.href.indexOf('#') > -1) {
+        $('.scrolling-navbar').addClass('top-nav-collapse');
+        $('.navbar-brand img').addClass('invert-color');
+    } else {
+        $('.scrolling-navbar').removeClass('top-nav-collapse');
+        $('.navbar-brand img').removeClass('invert-color');
+    }
+  }
+
+  refresh();
 
 }(jQuery));

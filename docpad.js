@@ -30,7 +30,7 @@ docpadConfig = {
                 "agenda": false,
                 "speakers": false,
                 "sponsors": true,
-                "partners": true,
+                "partners": false,
                 "venue": false,
             },
             event: {
@@ -50,16 +50,16 @@ docpadConfig = {
             sponsors: {
                 diamond: [
                 {
-                    "name" : "TomTom",
-                    "logo_url" : sponsorsImgBaseUrl + "tomtom-on-white.png",
-                    "link" : "https://www.tomtom.com/pl_pl/"
+                    "name" : "Reserved",
+                    "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
+                    "link" : ""
                 },
                 ],
                 platinum: [
                 {
-                    "name" : "Glase",
-                    "logo_url" : sponsorsImgBaseUrl + "glase-300px.png",
-                    "link" : "https://www.glase.se/en/"
+                    "name" : "Harman",
+                    "logo_url" : sponsorsImgBaseUrl + "harman-300-300.png",
+                    "link": "https://services.harman.com/"
                 },
                 {
                         "name": "Idemia",
@@ -67,85 +67,72 @@ docpadConfig = {
                         "link": "https://www.idemia.com/"
                 },
                 {
-                    "name" : "Mobica",
-                    "logo_url" : sponsorsImgBaseUrl + "mobica.png",
-                    "link": "https://www.mobica.com/"
+                    "name" : "Reserved",
+                    "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
+                    "link" : ""
                 },
                 {
-                    "name" : "Harman",
-                    "logo_url" : sponsorsImgBaseUrl + "harman.jpeg",
-                    "link": "https://services.harman.com/"
+                    "name" : "Reserved",
+                    "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
+                    "link": ""
+                },
+                {
+                    "name" : "Reserved",
+                    "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
+                    "link": ""
                 },
                 ],
                 gold: [
                 {
-                    "name" : "Allegro",
-                    "logo_url" : sponsorsImgBaseUrl + "allegro.png",
-                    "link" : "https://allegro.tech/"
+                    "name" : "BinarApps",
+                    "logo_url" : sponsorsImgBaseUrl + "binarapps-300-300.png",
+                    "link" : "https://binarapps.com/"
                 },
                 {
-                    "name" : "Comarch",
-                    "logo_url" : sponsorsImgBaseUrl + "comarch-square.png",
-                    "link" : "https://www.comarch.pl/"
+                    "name" : "Free",
+                    "logo_url" : sponsorsImgBaseUrl + "mobilization-free.png",
+                    "link" : "mailto:sponsors@mobilization.pl?subject=Mobilization IX sponsorship offer&body=Dear Mobilization, We are interested in sponsoring Mobilization IX. Please can you send a sponsorship offer for 2019"
                 },
                 {
-                    "name" : "Fujitsu",
-                    "logo_url" : sponsorsImgBaseUrl + "fujitsu.png",
-                    "link" : "http://www.fujitsu.com/pl/about/local/lodz/"
+                    "name" : "Free",
+                    "logo_url" : sponsorsImgBaseUrl + "mobilization-free.png",
+                    "link" : "mailto:sponsors@mobilization.pl?subject=Mobilization IX sponsorship offer&body=Dear Mobilization, We are interested in sponsoring Mobilization IX. Please can you send a sponsorship offer for 2019"
+                },
+                {
+                    "name" : "Free",
+                    "logo_url" : sponsorsImgBaseUrl + "mobilization-free.png",
+                    "link" : "mailto:sponsors@mobilization.pl?subject=Mobilization IX sponsorship offer&body=Dear Mobilization, We are interested in sponsoring Mobilization IX. Please can you send a sponsorship offer for 2019"
                 }
                 ],
                 silver: [
                 {
-                    "name" : "Appyourself",
-                    "logo_url" : sponsorsImgBaseUrl + "appyourself.png",
-                    "link" : "https://appyourself.net/en/"
+                    "name" : "Reserved",
+                    "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
                 },
                 {
-                    "name" : "Cybercom Group",
-                    "logo_url" : sponsorsImgBaseUrl + "cybercom.png",
-                    "link" : "https://www.cybercom.com/pl/Poland/"
+                    "name" : "Free",
+                    "logo_url" : sponsorsImgBaseUrl + "mobilization-free.png",
+                    "link" : "mailto:sponsors@mobilization.pl?subject=Mobilization IX sponsorship offer&body=Dear Mobilization, We are interested in sponsoring Mobilization IX. Please can you send a sponsorship offer for 2019"
                 },
                 {
-                    "name" : "Hycom",
-                    "logo_url" : sponsorsImgBaseUrl + "hycom.png",
-                    "link" : "https://www.hycom.pl/"
+                    "name" : "Free",
+                    "logo_url" : sponsorsImgBaseUrl + "mobilization-free.png",
+                    "link" : "mailto:sponsors@mobilization.pl?subject=Mobilization IX sponsorship offer&body=Dear Mobilization, We are interested in sponsoring Mobilization IX. Please can you send a sponsorship offer for 2019"
                 },
                 {
-                    "name" : "IT Kontrakt",
-                    "logo_url" : sponsorsImgBaseUrl + "itkontrakt.png",
-                    "link" : "https://www.itkontrakt.pl/dolaczdonas/cities/lodz/"
-                },
+                    "name" : "Free",
+                    "logo_url" : sponsorsImgBaseUrl + "mobilization-free.png",
+                    "link" : "mailto:sponsors@mobilization.pl?subject=Mobilization%20IX%20sponsorship%20offer&body=Dear%20Mobilization%2C%20We%20are%20interested%20in%20sponsoring%20Mobilization%20IX.%20Please%20can%20you%20send%20a%20sponsorship%20offer%20for%202019"
+                },                              
                 ],
                 afterparty: [
                 {
-                    "name" : "Digital New Agency",
-                    "logo_url" : sponsorsImgBaseUrl + "dna.png",
-                    "link" : "http://bit.ly/dnapoland"
+                    "name" : "Reserved",
+                    "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
+                    "link" : ""
                 },
                 ],
                 copper: [
-                {
-                    "name" : "Mercari",
-                    "logo_url" : sponsorsImgBaseUrl + "mercari.png",
-                    "link": "https://about.mercari.com/en/"
-                },
-                {
-                    "name" : "Moovel",
-                    "logo_url" : sponsorsImgBaseUrl + "moovel.png",
-                    "link" : "https://www.moovel.com/de/en"
-                },
-                {
-                    "name" : "Five",
-                    "logo_url" : sponsorsImgBaseUrl + "five.png",
-                    "link" : "https://five.agency/"
-                },
-                {
-                    "name" : "vpTech",
-                    "logo_url" : sponsorsImgBaseUrl + "vptech.png",
-                    "link" : "https://twitter.com/ventepriveetech"
-                },
-
-
                 ]
             },
             partners: {

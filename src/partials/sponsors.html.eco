@@ -22,7 +22,7 @@
 		<% for sponsor_key, sponsor of sponsor_category: %>
 			<div class="<%= @getSponsorLogoClass(sponsor_category_key) %>">
 				<div class="spnsors-logo">
-					<a href="#"><img class="img-fluid" src="<%= sponsor.logo_url %>" alt="" /></a>
+					<a href="<%= sponsor.link %>"><img class="img-fluid" src="<%= sponsor.logo_url %>" alt="" /></a>
 				</div>
 			</div>
 		<% end %>

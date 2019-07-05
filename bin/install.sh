@@ -1,6 +1,6 @@
 #!/bin/bash
 
-MOBILIZATION_DOMAIN="2018.mobilization.pl"
+MOBILIZATION_DOMAIN="2019.mobilization.pl"
 
 # create a new folder for the project
 mkdir -p mobilization.pl

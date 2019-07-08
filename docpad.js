@@ -57,6 +57,11 @@ docpadConfig = {
                 ],
                 platinum: [
                 {
+                    "name" : "ePassi",
+                    "logo_url" : sponsorsImgBaseUrl + "epassi.png",
+                    "link" : "https://www.epassi.fi/en/home"
+                },
+                {
                     "name" : "Harman",
                     "logo_url" : sponsorsImgBaseUrl + "harman-300-300.png",
                     "link": "https://services.harman.com/"
@@ -65,11 +70,6 @@ docpadConfig = {
                         "name": "Idemia",
                         "logo_url": sponsorsImgBaseUrl + "idemia-vertical-300px.jpg",
                         "link": "https://www.idemia.com/"
-                },
-                {
-                    "name" : "Reserved",
-                    "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
-                    "link" : ""
                 },
                 {
                     "name" : "Reserved",

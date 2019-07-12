@@ -57,6 +57,11 @@ docpadConfig = {
                 ],
                 platinum: [
                 {
+                    "name" : "Allegro",
+                    "logo_url" : sponsorsImgBaseUrl + "allegro_submar_tech_300_300.png",
+                    "link": "https://allegro.tech/"
+                },
+                 {
                     "name" : "ePassi",
                     "logo_url" : sponsorsImgBaseUrl + "epassi.png",
                     "link" : "https://www.epassi.fi/en/home"
@@ -71,12 +76,7 @@ docpadConfig = {
                         "logo_url": sponsorsImgBaseUrl + "idemia-vertical-300px.jpg",
                         "link": "https://www.idemia.com/"
                 },
-                {
-                    "name" : "Reserved",
-                    "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
-                    "link": ""
-                },
-                {
+               {
                     "name" : "Reserved",
                     "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
                     "link": ""

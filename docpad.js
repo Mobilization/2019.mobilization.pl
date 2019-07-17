@@ -177,8 +177,7 @@ docpadConfig = {
                     {
                         "name": "4Developers Wrocław",
                         "logo_url": partnersImgBaseUrl + '4developers_wroclaw.png',
-                        "link": "
-                        https://4developers.org.pl/wroclaw/"
+                        "link": "https://4developers.org.pl/wroclaw/"
                     },
                     {
                         "name": "4Developers Poznań",

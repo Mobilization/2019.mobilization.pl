@@ -128,7 +128,7 @@ docpadConfig = {
                 {
                     "name" : "DNA Poland",
                     "logo_url" : sponsorsImgBaseUrl + "dna.png",
-                    "link" : ""
+                    "link" : "https://www.digitalnewagency.com/"
                 },
                 ],
                 copper: [

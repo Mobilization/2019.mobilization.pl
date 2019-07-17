@@ -10,6 +10,5 @@ layout: 'main'
 <% if @site.visibility.talks: %><%- @partial('talks.html', @) %><% end %>
 <% if @site.visibility.agenda: %><%- @partial('agenda.html.eco', @) %><% end %>
 <% if @site.visibility.venue: %><%- @partial('venue.html', @) %><% end %>
-<%- @partial('call4papers.html', @) %>
 <%- @partial('contact.html', @) %>
 <%- @partial('footer.html', @) %>

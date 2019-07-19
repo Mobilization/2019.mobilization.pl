@@ -160,6 +160,11 @@ docpadConfig = {
                         "link": "https://www.facebook.com/letswiftwroclaw/"
                     },
                     {
+                        "name": "LogCat",
+                        "logo_url": partnersImgBaseUrl + 'logcat-square.png',
+                        "link": "https://www.facebook.com/LogCatMeetup"
+                    },                    
+                    {
                         "name": "Mobile Warsaw",
                         "logo_url": partnersImgBaseUrl + 'mobile-warsaw.png',
                         "link": "https://mobile-warsaw.pl/"

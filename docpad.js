@@ -163,6 +163,11 @@ docpadConfig = {
                         "name": "LogCat",
                         "logo_url": partnersImgBaseUrl + 'logcat-square.png',
                         "link": "https://www.facebook.com/LogCatMeetup"
+                    },
+                    {
+                        "name": "Meet.mobile",
+                        "logo_url": partnersImgBaseUrl + 'meet-mobile.png',
+                        "link": "https://www.meetup.com/meet-mobile/"
                     },                    
                     {
                         "name": "Mobile Warsaw",

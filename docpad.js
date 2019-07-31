@@ -106,8 +106,9 @@ docpadConfig = {
                 ],
                 silver: [
                 {
-                    "name" : "Reserved",
-                    "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
+                    "name" : "Cybercom",
+                    "logo_url" : sponsorsImgBaseUrl + "cybercom.png",
+                    "link" : "https://www.cybercom.com/pl/Poland/"
                 },
                 {
                     "name" : "Reserved",

@@ -44,7 +44,7 @@ docpadConfig = {
                     zip: '93-590',
                     country: 'Polska'
                 },
-                data: '20th Oct 2018',
+                data: '26th Oct 2019',
                 time: '08:00-18:00'
             },
             sponsors: {

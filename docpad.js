@@ -326,16 +326,16 @@ docpadConfig = {
                     "linkedin": "https://linkedin.com/in/mateuszszklarek",
                     "photo_url": speakersImgBaseUrl + "mateusz-szklarek.png"
                 },
-                "speaker-eugene-matsyuk": {//17
-                    "firstname": "Eugene",
-                    "lastname": "Matsyuk",
-                    "bio_html": "Bio:<BR>I have beenan android developer since 2012. I have takenpart in many projects, some of those are <a href='https://play.google.com/store/apps/details?id=com.lingualeo.android'>LinguaLeo</a>, <a href='https://play.google.com/store/apps/details?id=ru.sberbank_sbbol'>SberbankBusinessOnline</a> (famous apps in Russia). My current project is <a href='https://play.google.com/store/apps/details?id=com.kms.free'>Kaspersky Internet Security</a> for Android.<BR>I have personal development blogs in <a href='https://habr.com/ru/users/xoxol_89/posts/'>Russian</a> and in <a href='https://medium.com/@eugenematsyuk'>English</a>. <BR>I have a github <a href='https://github.com/matzuk'>page</a> that contains my small projects written mainly for articles. Also I am a main author of the architecture <a href='https://github.com/AndroidArchitecture/AndroidArchitectureBook'>CookBook</a> that is a set of rules and recommendations on how to build your project’s architecture. <BR>And what matters I have rich experience in public speaking but all speeches were in Russian (some videos are <a href='https://www.conferencecast.tv/speaker/6932/yevgenii-matsyuk'>here</a>).",
-                    "www": "",
-                    "twitter": "",
-                    "github": "https://github.com/matzuk",
-                    "linkedin": "",
-                    "photo_url": speakersImgBaseUrl + "eugene-matsyuk.png"
-                },
+                // "speaker-eugene-matsyuk": {//17
+                //     "firstname": "Eugene",
+                //     "lastname": "Matsyuk",
+                //     "bio_html": "Bio:<BR>I have beenan android developer since 2012. I have takenpart in many projects, some of those are <a href='https://play.google.com/store/apps/details?id=com.lingualeo.android'>LinguaLeo</a>, <a href='https://play.google.com/store/apps/details?id=ru.sberbank_sbbol'>SberbankBusinessOnline</a> (famous apps in Russia). My current project is <a href='https://play.google.com/store/apps/details?id=com.kms.free'>Kaspersky Internet Security</a> for Android.<BR>I have personal development blogs in <a href='https://habr.com/ru/users/xoxol_89/posts/'>Russian</a> and in <a href='https://medium.com/@eugenematsyuk'>English</a>. <BR>I have a github <a href='https://github.com/matzuk'>page</a> that contains my small projects written mainly for articles. Also I am a main author of the architecture <a href='https://github.com/AndroidArchitecture/AndroidArchitectureBook'>CookBook</a> that is a set of rules and recommendations on how to build your project’s architecture. <BR>And what matters I have rich experience in public speaking but all speeches were in Russian (some videos are <a href='https://www.conferencecast.tv/speaker/6932/yevgenii-matsyuk'>here</a>).",
+                //     "www": "",
+                //     "twitter": "",
+                //     "github": "https://github.com/matzuk",
+                //     "linkedin": "",
+                //     "photo_url": speakersImgBaseUrl + "eugene-matsyuk.png"
+                // },
                 "speaker-peter-john-welcome": {//18
                     "firstname": "Peter-John",
                     "lastname": "Welcome",
@@ -356,16 +356,16 @@ docpadConfig = {
                     "linkedin": "https://www.linkedin.com/in/luca-nicoletti-7171b1ab/",
                     "photo_url": speakersImgBaseUrl + "luca-nicoletti.png"
                 },
-                "speaker-vipul-shah": {//21
-                    "firstname": "Vipul",
-                    "lastname": "Shah",
-                    "bio_html": "I’m a Android/iOS developer, currently working for a Backbase as an Android & iOS Developer. I love public speaking and presenting talks. I regularly give talks at GDG events & Local meetups, and blog at Medium. Before joining Backbase I was working with awesome product teams @Microsoft. I have been developing Android & iOS applications since last 7 years and have worked for few notable clients like FirstData, BMW, Wallmart labs. During my tenure in Microsoft I was part core Outlook team and worked on couple of Office apps. I regularly speak at technical events like GDG & Developer meetups.",
-                    "www": "",
-                    "twitter": "https://twitter.com/_vipuls",
-                    "github": "https://github.com/vipulshah2010",
-                    "linkedin": "https://in.linkedin.com/in/vipulshah123",
-                    "photo_url": speakersImgBaseUrl + "vipul-shah.png"
-                },
+                // "speaker-vipul-shah": {//21
+                //     "firstname": "Vipul",
+                //     "lastname": "Shah",
+                //     "bio_html": "I’m a Android/iOS developer, currently working for a Backbase as an Android & iOS Developer. I love public speaking and presenting talks. I regularly give talks at GDG events & Local meetups, and blog at Medium. Before joining Backbase I was working with awesome product teams @Microsoft. I have been developing Android & iOS applications since last 7 years and have worked for few notable clients like FirstData, BMW, Wallmart labs. During my tenure in Microsoft I was part core Outlook team and worked on couple of Office apps. I regularly speak at technical events like GDG & Developer meetups.",
+                //     "www": "",
+                //     "twitter": "https://twitter.com/_vipuls",
+                //     "github": "https://github.com/vipulshah2010",
+                //     "linkedin": "https://in.linkedin.com/in/vipulshah123",
+                //     "photo_url": speakersImgBaseUrl + "vipul-shah.png"
+                // },
                 "speaker-piotr-madry": {//29
                     "firstname": "Piotr",
                     "lastname": "Mądry",
@@ -386,16 +386,16 @@ docpadConfig = {
                     "linkedin": "https://www.linkedin.com/in/petrulak",
                     "photo_url": speakersImgBaseUrl + "martin-petrulak.png"
                 },
-                "speaker-andrii-rakhimov": {//37
-                    "firstname": "Andrii",
-                    "lastname": "Rakhimov",
-                    "bio_html": "Lead Android Engineer at Lalafo. More than 6 years working with mobile. Have experience of scaling apps from several thousand to millions of users. Passionate about mobile and technology as well as about giving back to the community.",
-                    "www": "",
-                    "twitter": "",
-                    "github": "https://github.com/ar-g",
-                    "linkedin": "",
-                    "photo_url": speakersImgBaseUrl + "andrii-rakhimov.png"
-                },
+                // "speaker-andrii-rakhimov": {//37
+                //     "firstname": "Andrii",
+                //     "lastname": "Rakhimov",
+                //     "bio_html": "Lead Android Engineer at Lalafo. More than 6 years working with mobile. Have experience of scaling apps from several thousand to millions of users. Passionate about mobile and technology as well as about giving back to the community.",
+                //     "www": "",
+                //     "twitter": "",
+                //     "github": "https://github.com/ar-g",
+                //     "linkedin": "",
+                //     "photo_url": speakersImgBaseUrl + "andrii-rakhimov.png"
+                // },
                 "speaker-neem-serra": {//44
                     "firstname": "Neem",
                     "lastname": "Serra",
@@ -416,16 +416,16 @@ docpadConfig = {
                     "linkedin": "https://www.linkedin.com/in/tgrynfelder/",
                     "photo_url": speakersImgBaseUrl + "tomasz-grynfelder-renk.png"
                 },
-                "speaker-milos-marinkovic": {//54
-                    "firstname": "Milos",
-                    "lastname": "Marinkovic",
-                    "bio_html": "Milos is a software enthusiast, software product developer, tech event organizer in Berlin's GDG, and an active open-source contributor. His interests are Android, modern web, connected devices and Internet Of Things. As an active tech community member and software professional, he likes reading about innovation, programming, and (of course) organizational skills; but loves skiing. <BR><BR>Years ago he founded GDG Novi Sad in Serbia and he worked there as a community lead, hosted some very interesting workshops with GDEs from all over the world, attended many meetups and hackathons, gave talks for the community on conferences and meetups, and hosted many dev-jams on open-source projects - so he is no stranger to our tech community.<BR><BR>Today, Milos is based in Berlin, working on building amazing software products - primarily for the Android platform.",
-                    "www": "https://angrybyte.me/",
-                    "twitter": "https://twitter.com/milosmns",
-                    "github": "https://github.com/milosmns",
-                    "linkedin": "https://www.linkedin.com/in/milosmns",
-                    "photo_url": speakersImgBaseUrl + "milos-marinkovic.png"
-                },
+                // "speaker-milos-marinkovic": {//54
+                //     "firstname": "Milos",
+                //     "lastname": "Marinkovic",
+                //     "bio_html": "Milos is a software enthusiast, software product developer, tech event organizer in Berlin's GDG, and an active open-source contributor. His interests are Android, modern web, connected devices and Internet Of Things. As an active tech community member and software professional, he likes reading about innovation, programming, and (of course) organizational skills; but loves skiing. <BR><BR>Years ago he founded GDG Novi Sad in Serbia and he worked there as a community lead, hosted some very interesting workshops with GDEs from all over the world, attended many meetups and hackathons, gave talks for the community on conferences and meetups, and hosted many dev-jams on open-source projects - so he is no stranger to our tech community.<BR><BR>Today, Milos is based in Berlin, working on building amazing software products - primarily for the Android platform.",
+                //     "www": "https://angrybyte.me/",
+                //     "twitter": "https://twitter.com/milosmns",
+                //     "github": "https://github.com/milosmns",
+                //     "linkedin": "https://www.linkedin.com/in/milosmns",
+                //     "photo_url": speakersImgBaseUrl + "milos-marinkovic.png"
+                // },
                 "speaker-pawel-urbanowicz": {//57
                     "firstname": "Pawel",
                     "lastname": "Urbanowicz",

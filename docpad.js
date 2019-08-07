@@ -356,16 +356,16 @@ docpadConfig = {
                     "linkedin": "https://www.linkedin.com/in/luca-nicoletti-7171b1ab/",
                     "photo_url": speakersImgBaseUrl + "luca-nicoletti.png"
                 },
-                // "speaker-vipul-shah": {//21
-                //     "firstname": "Vipul",
-                //     "lastname": "Shah",
-                //     "bio_html": "I’m a Android/iOS developer, currently working for a Backbase as an Android & iOS Developer. I love public speaking and presenting talks. I regularly give talks at GDG events & Local meetups, and blog at Medium. Before joining Backbase I was working with awesome product teams @Microsoft. I have been developing Android & iOS applications since last 7 years and have worked for few notable clients like FirstData, BMW, Wallmart labs. During my tenure in Microsoft I was part core Outlook team and worked on couple of Office apps. I regularly speak at technical events like GDG & Developer meetups.",
-                //     "www": "",
-                //     "twitter": "https://twitter.com/_vipuls",
-                //     "github": "https://github.com/vipulshah2010",
-                //     "linkedin": "https://in.linkedin.com/in/vipulshah123",
-                //     "photo_url": speakersImgBaseUrl + "vipul-shah.png"
-                // },
+                "speaker-vipul-shah": {//21
+                    "firstname": "Vipul",
+                    "lastname": "Shah",
+                    "bio_html": "I’m a Android/iOS developer, currently working for a Backbase as an Android & iOS Developer. I love public speaking and presenting talks. I regularly give talks at GDG events & Local meetups, and blog at Medium. Before joining Backbase I was working with awesome product teams @Microsoft. I have been developing Android & iOS applications since last 7 years and have worked for few notable clients like FirstData, BMW, Wallmart labs. During my tenure in Microsoft I was part core Outlook team and worked on couple of Office apps. I regularly speak at technical events like GDG & Developer meetups.",
+                    "www": "",
+                    "twitter": "https://twitter.com/_vipuls",
+                    "github": "https://github.com/vipulshah2010",
+                    "linkedin": "https://in.linkedin.com/in/vipulshah123",
+                    "photo_url": speakersImgBaseUrl + "vipul-shah.png"
+                },
                 "speaker-piotr-madry": {//29
                     "firstname": "Piotr",
                     "lastname": "Mądry",

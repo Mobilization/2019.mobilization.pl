@@ -468,7 +468,7 @@ docpadConfig = {
                 },
                 "speaker-milosz-staszewski": {//71
                     "firstname": "Milosz",
-                    "lastname": "Staszesski",
+                    "lastname": "Staszewski",
                     "bio_html": "Milosz is an Apple Certified Trainer for App Development with Swift 4 course.",
                     "www": "https://k7.eu",
                     "twitter": "https://twitter.com/@sofcik",
@@ -478,7 +478,7 @@ docpadConfig = {
                 },
                 "speaker-mateusz-duc": {//71
                     "firstname": "Mateusz",
-                    "lastname": "Mateusz Duc",
+                    "lastname": "Duc",
                     "bio_html": "Mateusz is a legally blind person specialising in accessibility-related training.",
                     "www": "",
                     "twitter": "",

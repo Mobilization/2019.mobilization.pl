@@ -296,6 +296,16 @@ docpadConfig = {
                 },
             },
             speakers: {
+                "speaker-filip-babic": {//1
+                    "firstname": "Filip",
+                    "lastname": "Babić",
+                    "bio_html": "Professional developer with extensive knowledge of Android, Kotlin, and Java. Developing since 2015, I’ve amassed a great deal of experience and finished projects using only best practices, building high-quality products. Huge Kotlin lover and preacher, mostly focusing on Kotlin Coroutines and other low-level concurrency mechanisms. Gaming when not coding, writing about coding or speaking about coding at various events, meetups, and conferences. Dungeon master in spare time.",
+                    "www": "",
+                    "twitter": "https://twitter.com/filbabic",
+                    "github": "https://github.com/filbabic",
+                    "linkedin": "https://www.linkedin.com/in/filip-babić-52b73a130",
+                    "photo_url": speakersImgBaseUrl + "filip-babic.png"
+                },
                 "speaker-nishant-srivastava": {//7
                     "firstname": "Nishant",
                     "lastname": "Srivastava",
@@ -386,16 +396,16 @@ docpadConfig = {
                     "linkedin": "https://www.linkedin.com/in/petrulak",
                     "photo_url": speakersImgBaseUrl + "martin-petrulak.png"
                 },
-                // "speaker-andrii-rakhimov": {//37
-                //     "firstname": "Andrii",
-                //     "lastname": "Rakhimov",
-                //     "bio_html": "Lead Android Engineer at Lalafo. More than 6 years working with mobile. Have experience of scaling apps from several thousand to millions of users. Passionate about mobile and technology as well as about giving back to the community.",
-                //     "www": "",
-                //     "twitter": "",
-                //     "github": "https://github.com/ar-g",
-                //     "linkedin": "",
-                //     "photo_url": speakersImgBaseUrl + "andrii-rakhimov.png"
-                // },
+                "speaker-andrii-rakhimov": {//37
+                    "firstname": "Andrii",
+                    "lastname": "Rakhimov",
+                    "bio_html": "Lead Android Engineer at Lalafo. More than 6 years working with mobile. Have experience of scaling apps from several thousand to millions of users. Passionate about mobile and technology as well as about giving back to the community.",
+                    "www": "",
+                    "twitter": "",
+                    "github": "https://github.com/ar-g",
+                    "linkedin": "",
+                    "photo_url": speakersImgBaseUrl + "andrii-rakhimov.png"
+                },
                 "speaker-neem-serra": {//44
                     "firstname": "Neem",
                     "lastname": "Serra",
@@ -416,16 +426,16 @@ docpadConfig = {
                     "linkedin": "https://www.linkedin.com/in/tgrynfelder/",
                     "photo_url": speakersImgBaseUrl + "tomasz-grynfelder-renk.png"
                 },
-                // "speaker-milos-marinkovic": {//54
-                //     "firstname": "Milos",
-                //     "lastname": "Marinkovic",
-                //     "bio_html": "Milos is a software enthusiast, software product developer, tech event organizer in Berlin's GDG, and an active open-source contributor. His interests are Android, modern web, connected devices and Internet Of Things. As an active tech community member and software professional, he likes reading about innovation, programming, and (of course) organizational skills; but loves skiing. <BR><BR>Years ago he founded GDG Novi Sad in Serbia and he worked there as a community lead, hosted some very interesting workshops with GDEs from all over the world, attended many meetups and hackathons, gave talks for the community on conferences and meetups, and hosted many dev-jams on open-source projects - so he is no stranger to our tech community.<BR><BR>Today, Milos is based in Berlin, working on building amazing software products - primarily for the Android platform.",
-                //     "www": "https://angrybyte.me/",
-                //     "twitter": "https://twitter.com/milosmns",
-                //     "github": "https://github.com/milosmns",
-                //     "linkedin": "https://www.linkedin.com/in/milosmns",
-                //     "photo_url": speakersImgBaseUrl + "milos-marinkovic.png"
-                // },
+                "speaker-milos-marinkovic": {//54
+                    "firstname": "Milos",
+                    "lastname": "Marinkovic",
+                    "bio_html": "Milos is a software enthusiast, software product developer, tech event organizer in Berlin's GDG, and an active open-source contributor. His interests are Android, modern web, connected devices and Internet Of Things. As an active tech community member and software professional, he likes reading about innovation, programming, and (of course) organizational skills; but loves skiing. <BR><BR>Years ago he founded GDG Novi Sad in Serbia and he worked there as a community lead, hosted some very interesting workshops with GDEs from all over the world, attended many meetups and hackathons, gave talks for the community on conferences and meetups, and hosted many dev-jams on open-source projects - so he is no stranger to our tech community.<BR><BR>Today, Milos is based in Berlin, working on building amazing software products - primarily for the Android platform.",
+                    "www": "https://angrybyte.me/",
+                    "twitter": "https://twitter.com/milosmns",
+                    "github": "https://github.com/milosmns",
+                    "linkedin": "https://www.linkedin.com/in/milosmns",
+                    "photo_url": speakersImgBaseUrl + "milos-marinkovic.png"
+                },
                 "speaker-pawel-urbanowicz": {//57
                     "firstname": "Pawel",
                     "lastname": "Urbanowicz",

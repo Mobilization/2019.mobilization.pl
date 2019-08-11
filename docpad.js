@@ -336,16 +336,16 @@ docpadConfig = {
                     "linkedin": "https://linkedin.com/in/mateuszszklarek",
                     "photo_url": speakersImgBaseUrl + "mateusz-szklarek.png"
                 },
-                // "speaker-eugene-matsyuk": {//17
-                //     "firstname": "Eugene",
-                //     "lastname": "Matsyuk",
-                //     "bio_html": "Bio:<BR>I have beenan android developer since 2012. I have takenpart in many projects, some of those are <a href='https://play.google.com/store/apps/details?id=com.lingualeo.android'>LinguaLeo</a>, <a href='https://play.google.com/store/apps/details?id=ru.sberbank_sbbol'>SberbankBusinessOnline</a> (famous apps in Russia). My current project is <a href='https://play.google.com/store/apps/details?id=com.kms.free'>Kaspersky Internet Security</a> for Android.<BR>I have personal development blogs in <a href='https://habr.com/ru/users/xoxol_89/posts/'>Russian</a> and in <a href='https://medium.com/@eugenematsyuk'>English</a>. <BR>I have a github <a href='https://github.com/matzuk'>page</a> that contains my small projects written mainly for articles. Also I am a main author of the architecture <a href='https://github.com/AndroidArchitecture/AndroidArchitectureBook'>CookBook</a> that is a set of rules and recommendations on how to build your project’s architecture. <BR>And what matters I have rich experience in public speaking but all speeches were in Russian (some videos are <a href='https://www.conferencecast.tv/speaker/6932/yevgenii-matsyuk'>here</a>).",
-                //     "www": "",
-                //     "twitter": "",
-                //     "github": "https://github.com/matzuk",
-                //     "linkedin": "",
-                //     "photo_url": speakersImgBaseUrl + "eugene-matsyuk.png"
-                // },
+                "speaker-eugene-matsyuk": {//17
+                    "firstname": "Eugene",
+                    "lastname": "Matsyuk",
+                    "bio_html": "Bio:<BR>I have beenan android developer since 2012. I have takenpart in many projects, some of those are <a href='https://play.google.com/store/apps/details?id=com.lingualeo.android'>LinguaLeo</a>, <a href='https://play.google.com/store/apps/details?id=ru.sberbank_sbbol'>SberbankBusinessOnline</a> (famous apps in Russia). My current project is <a href='https://play.google.com/store/apps/details?id=com.kms.free'>Kaspersky Internet Security</a> for Android.<BR>I have personal development blogs in <a href='https://habr.com/ru/users/xoxol_89/posts/'>Russian</a> and in <a href='https://medium.com/@eugenematsyuk'>English</a>. <BR>I have a github <a href='https://github.com/matzuk'>page</a> that contains my small projects written mainly for articles. Also I am a main author of the architecture <a href='https://github.com/AndroidArchitecture/AndroidArchitectureBook'>CookBook</a> that is a set of rules and recommendations on how to build your project’s architecture. <BR>And what matters I have rich experience in public speaking but all speeches were in Russian (some videos are <a href='https://www.conferencecast.tv/speaker/6932/yevgenii-matsyuk'>here</a>).",
+                    "www": "",
+                    "twitter": "",
+                    "github": "https://github.com/matzuk",
+                    "linkedin": "",
+                    "photo_url": speakersImgBaseUrl + "eugene-matsyuk.png"
+                },
                 "speaker-peter-john-welcome": {//18
                     "firstname": "Peter-John",
                     "lastname": "Welcome",

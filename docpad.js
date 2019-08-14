@@ -134,6 +134,11 @@ docpadConfig = {
                 ],
                 copper: [
                     {
+                        "name" : "Heryson",
+                        "link" : "https://heryson.com/ ",
+                        "logo_url" : sponsorsImgBaseUrl + "heryson_square.png",
+                    },
+                    {
                         "name" : "Kaspersky",
                         "link" : "https://www.kaspersky.com/",
                         "logo_url" : sponsorsImgBaseUrl + "kaspersky_square.png",

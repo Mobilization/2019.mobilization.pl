@@ -77,8 +77,8 @@ docpadConfig = {
                         "link": "https://www.idemia.com/"
                 },
                {
-                    "name" : "Reserved",
-                    "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
+                    "name" : "Intive",
+                    "logo_url" : sponsorsImgBaseUrl + "intive_logo_blue_square.png",
                     "link": ""
                 },
                 ],
@@ -133,6 +133,7 @@ docpadConfig = {
                 },
                 ],
                 copper: [
+                    
                 ]
             },
             partners: {

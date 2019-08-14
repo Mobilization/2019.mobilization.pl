@@ -546,6 +546,26 @@ docpadConfig = {
                     "linkedin": "",
                     "photo_url": speakersImgBaseUrl + "marcin-moskala.png"
                 },
+                "speaker-tomasz-gebarowski": {//77
+                    "firstname": "Tomasz",
+                    "lastname": "Gebarowski",
+                    "bio_html": "Senior Mobile Software Engineer and Team Leader at Allegro. Currently focused on iOS platform, interested in scaling things and improving the process. Having background in e-commerce, mobile banking and distributed VoIP servers. Experienced in maintaining large codebases and long term projects. Privately father of two kids and LEGO builder.",
+                    "www": "http://www.tomaszgebarowski.pl",
+                    "twitter": "https://twitter.com/@tgebarowski",
+                    "github": "	https://github.com/tgebarowski",
+                    "linkedin": "",
+                    "photo_url": speakersImgBaseUrl + "tomasz-gebarowski.png"
+                },
+                "speaker-krzysztof-pawski": {//77
+                    "firstname": "Krzysztof",
+                    "lastname": "Pawski",
+                    "bio_html": "iOS developer with 6 years of experience. He started his career in a small software house mostly dealing with machine translation tools. Then he proceeded through shopping startup, big aerospace and pharmaceutical corporations. Currently working in one of Allegro teams where he is doing his best to use knowledge acquired over these years to keep high quality code. Apart from iOS he loves his wife and various sports likes bike, snowboard, longboard or capoeira.",
+                    "www": "",
+                    "twitter": "",
+                    "github": "",
+                    "linkedin": "",
+                    "photo_url": speakersImgBaseUrl + "krzysztof-pawski.png"
+                },
             },
             talks: {
                 "talk-tbd": {

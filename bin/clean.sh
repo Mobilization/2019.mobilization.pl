@@ -4,7 +4,7 @@
 ./node_modules/docpad/bin/docpad clean
 
 # create folder for gh-pages branch
-mkdir ../2018.mobilization.pl-gh-pages
-cd ../2018.mobilization.pl-gh-pages
-git clone https://github.com/mobilization/2018.mobilization.pl.git .
+mkdir ../2019.mobilization.pl-gh-pages
+cd ../2019.mobilization.pl-gh-pages
+git clone https://github.com/mobilization/2019.mobilization.pl.git .
 git checkout gh-pages

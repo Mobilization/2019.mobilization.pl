@@ -2374,3 +2374,34 @@ a.back-to-top:hover, a.back-to-top:focus {
 .modal-dialog .bio {
   text-align: left;
 }
+.talk {
+  margin-top: 50px;
+}
+
+.ts-talks .speaker-name, .schedule-slot-time .speaker-name {
+  float: left;
+  margin-left: 8px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.ts-talks .speaker-talk {
+  padding-top: 15px;
+  font-size: 16px;
+}
+
+.small-photo {
+  width: 70px;
+  height: 70px;
+  background-size: cover;
+  display: block;
+  border-radius: 35px;
+}
+
+a {
+  color: rgb(30, 197, 15);
+}
+
+a:hover {
+  color: rgb(10, 150, 0)
+}

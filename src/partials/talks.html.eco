@@ -1,15 +1,14 @@
 <section id="ts-talks" class="ts-talks">
-	<div class="container">
-		<div class="row text-center">
-            <h2 class="section-title"></h2>
-			<p class="section-sub-title">Talks</p>
-		    </div>
-                <% for index, talk_key of @getOrderedTalkKeys(): %>
-                <% talk = @site.talks[talk_key] %>
+	<div class="container gradient-bg">
+        <div class="row text-center justify-content-center">
+             <h2 class="section-title">Talks</h2>
+        </div>
+        <% for index, talk_key of @getOrderedTalkKeys(): %>
+            <% talk = @site.talks[talk_key] %>
                 <% if talk.speakers_keys.length > 0: %>
                 <div class="row talk">
                     <div class="anchor" id="<%= talk_key %>"></div>
-                    <div class="col-xs-4 center">
+                    <div class="col-12 col-sm-12 col-md-4 center">
                         <h4><%= talk.title %></h4>
                         <% for speaker_key in talk.speakers_keys: %>
                         <% _speaker = @site.speakers[speaker_key] %>
@@ -21,11 +20,11 @@
                         </div>
                         <% end %>
                     </div>
-                    <div class="col-xs-8 center">
-                        <p class="speaker-talk"><%- talk.description_html %></p>
+                    <div class="col-12 col-sm-12 col-md-8 center">
+                        <%- talk.description_html %>
                     </div>
                 </div>
-                <% end %>
-                <% end %>
+            <% end %>
+        <% end %>
 	</div>
 </section>

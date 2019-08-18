@@ -2360,3 +2360,17 @@ a.back-to-top:hover, a.back-to-top:focus {
     clear: both;
     height: 20px;
 }
+
+.modal-dialog {
+  margin-top: 5rem !important;
+}
+
+.modal-dialog .speaker-photo {
+  max-width: 200px;
+  max-height: 200px;
+  margin-bottom: 15px;
+}
+
+.modal-dialog .bio {
+  text-align: left;
+}

@@ -319,7 +319,7 @@ docpadConfig = {
                 "speaker-nishant-srivastava": {//7
                     "firstname": "Nishant",
                     "lastname": "Srivastava",
-                    "bio_html": "Nishant is a Sr.Android Engineer at Soundbrenner in Berlin, Germany and an open source enthusiast who spends his time doodling when not hacking on Android. He is a caffeine-dependent life-form and can be found either talking about android libraries or advocating that coffee is the elixir of life at community gatherings.<BR><BR>He has been part of 2 startups in the past (Founding Team Member at<BR>OmniLabs, Inc. and one of the first employees at Silverpush) with experience in Android SDK Engineering and Audio Digital Signal Processing(DSP) on Android.<BR>While working at his past company (Silverpush), he developed the company’s patented UAB (Unique Audio Beacon) Technology.",
+                    "bio_html": "Nishant is a Sr.Android Engineer at Soundbrenner in Berlin, Germany and an open source enthusiast who spends his time doodling when not hacking on Android. He is a caffeine-dependent life-form and can be found either talking about android libraries or advocating that coffee is the elixir of life at community gatherings.<br>He has been part of 2 startups in the past (Founding Team Member at<BR>OmniLabs, Inc. and one of the first employees at Silverpush) with experience in Android SDK Engineering and Audio Digital Signal Processing(DSP) on Android.<BR>While working at his past company (Silverpush), he developed the company’s patented UAB (Unique Audio Beacon) Technology.",
                     "www": "https://nisrulz.com/",
                     "twitter": "https://twitter.com/@nisrulz",
                     "github": "https://github.com/nisrulz",
@@ -439,7 +439,7 @@ docpadConfig = {
                 "speaker-milos-marinkovic": {//54
                     "firstname": "Milos",
                     "lastname": "Marinkovic",
-                    "bio_html": "Milos is a software enthusiast, software product developer, tech event organizer in Berlin's GDG, and an active open-source contributor. His interests are Android, modern web, connected devices and Internet Of Things. As an active tech community member and software professional, he likes reading about innovation, programming, and (of course) organizational skills; but loves skiing. <BR><BR>Years ago he founded GDG Novi Sad in Serbia and he worked there as a community lead, hosted some very interesting workshops with GDEs from all over the world, attended many meetups and hackathons, gave talks for the community on conferences and meetups, and hosted many dev-jams on open-source projects - so he is no stranger to our tech community.<BR><BR>Today, Milos is based in Berlin, working on building amazing software products - primarily for the Android platform.",
+                    "bio_html": "Milos is a software enthusiast, software product developer, tech event organizer in Berlin's GDG, and an active open-source contributor. His interests are Android, modern web, connected devices and Internet Of Things. As an active tech community member and software professional, he likes reading about innovation, programming, and (of course) organizational skills; but loves skiing. <br>Years ago he founded GDG Novi Sad in Serbia and he worked there as a community lead, hosted some very interesting workshops with GDEs from all over the world, attended many meetups and hackathons, gave talks for the community on conferences and meetups, and hosted many dev-jams on open-source projects - so he is no stranger to our tech community.<br>Today, Milos is based in Berlin, working on building amazing software products - primarily for the Android platform.",
                     "www": "https://angrybyte.me/",
                     "twitter": "https://twitter.com/milosmns",
                     "github": "https://github.com/milosmns",
@@ -469,7 +469,7 @@ docpadConfig = {
                 "speaker-michal-baran": {//70
                     "firstname": "Michał",
                     "lastname": "Baran",
-                    "bio_html": "Michal is an Android developer, loving Flutter. With 3 years of mobile development. Technical articles writer. Passionate about scalable, lasting solutions.<BR><BR>Both are working together in Ocado Technology in London.",
+                    "bio_html": "Michal is an Android developer, loving Flutter. With 3 years of mobile development. Technical articles writer. Passionate about scalable, lasting solutions.<br>Both are working together in Ocado Technology in London.",
                     "www": "",
                     "twitter": "https://twitter.com/@baranmichal25",
                     "github": "https://github.com/cbaranmichal25",
@@ -529,7 +529,7 @@ docpadConfig = {
                 "speaker-timirah-james": {//75
                     "firstname": "Timirah",
                     "lastname": "James",
-                    "bio_html": "Timirah James is a developer advocate at Cloudinary and an influencer in the evangelism space, creating awareness around STEM and diversity in tech as well as helping others build great technical skills and become great developers. She’s best known for being a leader in the Los Angeles and Silicon Beach tech community, her active roles in the hackathon realm, and mentoring through TechniGal LA, her meetup for women exploring the world of STEM. Previously, she spent several years as a full-time iOS engineer. <BR><BR>Fun fact: She’s also a noted singer-songwriter and recently released “Coderitis,” a song about her love for technology and innovation, which can be found on SoundCloud and Spotify.",
+                    "bio_html": "Timirah James is a developer advocate at Cloudinary and an influencer in the evangelism space, creating awareness around STEM and diversity in tech as well as helping others build great technical skills and become great developers. She’s best known for being a leader in the Los Angeles and Silicon Beach tech community, her active roles in the hackathon realm, and mentoring through TechniGal LA, her meetup for women exploring the world of STEM. Previously, she spent several years as a full-time iOS engineer. <br>Fun fact: She’s also a noted singer-songwriter and recently released “Coderitis,” a song about her love for technology and innovation, which can be found on SoundCloud and Spotify.",
                     "www": "",
                     "twitter": "https://twitter.com/@TimirahJ",
                     "github": "https://github.com/timirahj",
@@ -546,7 +546,7 @@ docpadConfig = {
                     "linkedin": "",
                     "photo_url": speakersImgBaseUrl + "marcin-moskala.png"
                 },
-                "speaker-tomasz-gebarowski": {//77
+                "speaker-tomasz-gebarowski": {//78
                     "firstname": "Tomasz",
                     "lastname": "Gebarowski",
                     "bio_html": "Senior Mobile Software Engineer and Team Leader at Allegro. Currently focused on iOS platform, interested in scaling things and improving the process. Having background in e-commerce, mobile banking and distributed VoIP servers. Experienced in maintaining large codebases and long term projects. Privately father of two kids and LEGO builder.",
@@ -556,7 +556,7 @@ docpadConfig = {
                     "linkedin": "",
                     "photo_url": speakersImgBaseUrl + "tomasz-gebarowski.png"
                 },
-                "speaker-krzysztof-pawski": {//77
+                "speaker-krzysztof-pawski": {//78
                     "firstname": "Krzysztof",
                     "lastname": "Pawski",
                     "bio_html": "iOS developer with 6 years of experience. He started his career in a small software house mostly dealing with machine translation tools. Then he proceeded through shopping startup, big aerospace and pharmaceutical corporations. Currently working in one of Allegro teams where he is doing his best to use knowledge acquired over these years to keep high quality code. Apart from iOS he loves his wife and various sports likes bike, snowboard, longboard or capoeira.",
@@ -565,6 +565,46 @@ docpadConfig = {
                     "github": "",
                     "linkedin": "",
                     "photo_url": speakersImgBaseUrl + "krzysztof-pawski.png"
+                },
+                "speaker-mateusz-figlewicz": {//27
+                    "firstname": "Mateusz",
+                    "lastname": "Figlewicz",
+                    "bio_html": "IT professional with 10 years experience mainly in mobile development area. Currently for about a year acts as a Mobile Solution Architect in Intive company working together with both mobile engineers and business stakeholders to find the solutions for eCommerce projects. ",
+                    "www": "",
+                    "twitter": "",
+                    "github": "",
+                    "linkedin": "https://www.linkedin.com/in/mateuszfiglewicz",
+                    "photo_url": speakersImgBaseUrl + "mateusz-figlewicz.png"
+                },
+                "speaker-dylan-drost": {//56
+                    "firstname": "Dylan",
+                    "lastname": "Drost",
+                    "bio_html": "Freelance Android and Flutter Developer working on projects like Schiphol, SnappCar and Karify. As the resident geek at home I do the occasional web development/server admin for https://bettyskitchen.nl a food blog which is run by my wife with over a 1300 post and around 100/150k visitors per month.",
+                    "www": "https://dynadroid.nl",
+                    "twitter": "https://twitter.com/@aegis321",
+                    "github": "https://github.com/aegis123",
+                    "linkedin": "https://www.linkedin.com/in/dylandrost/",
+                    "photo_url": speakersImgBaseUrl + "dylan-drost.png"
+                },
+                "speaker-kaushik-gopal": {//59
+                    "firstname": "Kaushik",
+                    "lastname": "Gopal",
+                    "bio_html": "I've been a developer for about 12 years now, and an Android developer for about half of those. <br>I'm also known in some circles of the internet for starting one of the most popular development podcasts - <a href='http://fragmentedpodcast.com/about/'>Fragmented</a>. We talk about building better software and becoming better Android developers.<br>I currently work as a Senior Staff Mobile Engineer at Instacart. In the past, I've worked for a bunch of startups and companies always tinkering with computers and software. I believe in open source and you can find most my open source stuff on github.<br>Google was gracious to recognize some of my contributions to the community and has me listed as a <a href='https://google-developers.appspot.com/community/experts/directory/profile/profile-kaushik_gopal'>Google Developer Expert</a> for Android.<br><a href='https://kaush.co'>kaush.co</a>",
+                    "www": "https://kaush.co/",
+                    "twitter": "https://twitter.com/kaushikgopal",
+                    "github": "https://github.com/kaushikgopal",
+                    "linkedin": "https://www.linkedin.com/in/gopalkaushik",
+                    "photo_url": speakersImgBaseUrl + "kaushik-gopal.png"
+                },
+                "speaker-jayesh-kawli": {//70
+                    "firstname": "Jayesh ",
+                    "lastname": "Kawli",
+                    "bio_html": "Jayesh Kawli is a Senior iOS developer working at Wayfair in Boston, Massachusetts. He has been writing iOS applications for more than 5 years and currently works as a Mobile Engineering Manager for cart and checkout team for the Wayfair iOS application. He has previously worked as a tech lead for this team and mentored at multiple occasions in current and previous organizations. As a senior developer, he likes to share his knowledge and experience with other people. He has presented a variety of topics at his company's internal Lunch and learn meetings, local meetups as well as several other international platforms. He also writes a blog which touches active topics in iOS development along with occasional off-topics such as food, travel and web development.",
+                    "www": "https://jayeshkawli.ghost.io",
+                    "twitter": "https://twitter.com/jayeshkawli",
+                    "github": "https://github.com/jayesh15111988",
+                    "linkedin": "https://www.linkedin.com/in/jayesh-kawli-8aa22633",
+                    "photo_url": speakersImgBaseUrl + "jayesh-kawli.png"
                 },
             },
             talks: {

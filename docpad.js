@@ -472,7 +472,7 @@ docpadConfig = {
                     "bio_html": "Michal is an Android developer, loving Flutter. With 3 years of mobile development. Technical articles writer. Passionate about scalable, lasting solutions.<br>Both are working together in Ocado Technology in London.",
                     "www": "",
                     "twitter": "https://twitter.com/@baranmichal25",
-                    "github": "https://github.com/cbaranmichal25",
+                    "github": "https://github.com/baranmichal25",
                     "linkedin": "https://www.linkedin.com/in/baranmichal",
                     "photo_url": speakersImgBaseUrl + "michal-baran.png"
                 },

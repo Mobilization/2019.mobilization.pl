@@ -476,7 +476,7 @@ docpadConfig = {
                     "linkedin": "https://www.linkedin.com/in/baranmichal",
                     "photo_url": speakersImgBaseUrl + "michal-baran.png"
                 },
-                "speaker-rafal-baran": {//70
+                "speaker-rafal-wachol": {//70
                     "firstname": "Rafal",
                     "lastname": "Wachol",
                     "bio_html": "Rafal has over 9 years of experience in software development. Programming Flutter from its early stages. Active member of London Flutter Community. Passionate about reactive programming and open source.",

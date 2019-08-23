@@ -204,6 +204,11 @@ docpadConfig = {
                         "name": "4Developers Poznań",
                         "logo_url": partnersImgBaseUrl + '4developers_poznan.png',
                         "link": "https://4developers.org.pl/poznan-2019/"
+                    },
+                    {
+                        "name" : "Festiwal Cyfryzacji",
+                        "logo_url" : partnersImgBaseUrl + 'festiwal-cyfryzacji.png',
+                        "link" : "http://festiwalcyfryzacji.pl"
                     }                                                           
                 ],
                 media : [

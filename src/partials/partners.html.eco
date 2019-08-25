@@ -22,7 +22,7 @@
         <% for partner_key, partner of partner_category: %>
 			<div class="<%= @getPartnerLogoClass(partner_category_key) %>">
 				<div class="spnsors-logo">
-					<a href="#"><img class="img-fluid" src="<%= partner.logo_url %>" alt="Logo of <%= partner.name %>" /></a>
+					<a href="<%= partner.link %>"><img class="img-fluid" src="<%= partner.logo_url %>" alt="Logo of <%= partner.name %>" /></a>
 				</div>
 			</div>
 		<% end %>

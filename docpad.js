@@ -209,7 +209,12 @@ docpadConfig = {
                         "name" : "Festiwal Cyfryzacji",
                         "logo_url" : partnersImgBaseUrl + 'festiwal-cyfryzacji.png',
                         "link" : "http://festiwalcyfryzacji.pl"
-                    }                                                           
+                    },
+                    {
+                        "name" : "Poznań Flutter Developers Group",
+                        "logo_url" : partnersImgBaseUrl + 'pfdg-square.png',
+                        "link" : "https://www.facebook.com/poznanflutter"
+                    }                                                             
                 ],
                 media : [
                     {

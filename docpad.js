@@ -606,7 +606,7 @@ docpadConfig = {
                     "linkedin": "https://www.linkedin.com/in/gopalkaushik",
                     "photo_url": speakersImgBaseUrl + "kaushik-gopal.png"
                 },
-                "speaker-jayesh-kawli": {//70
+                "speaker-jayesh-kawli": {//90
                     "firstname": "Jayesh ",
                     "lastname": "Kawli",
                     "bio_html": "Jayesh Kawli is a Senior iOS developer working at Wayfair in Boston, Massachusetts. He has been writing iOS applications for more than 5 years and currently works as a Mobile Engineering Manager for cart and checkout team for the Wayfair iOS application. He has previously worked as a tech lead for this team and mentored at multiple occasions in current and previous organizations. As a senior developer, he likes to share his knowledge and experience with other people. He has presented a variety of topics at his company's internal Lunch and learn meetings, local meetups as well as several other international platforms. He also writes a blog which touches active topics in iOS development along with occasional off-topics such as food, travel and web development.",
@@ -625,6 +625,15 @@ docpadConfig = {
                     "github": "https://github.com/AlexZhukovich",
                     "linkedin": "https://www.linkedin.com/in/alex-zhukovich",
                     "photo_url": speakersImgBaseUrl + "aliaksandr-zhukovich.png"
+                },
+                "speaker-kassem-wridan": {//91
+                    "firstname": "Kassem",
+                    "lastname": "Wridan",
+                    "bio_html": "An iOS developer @ Bloomberg London",
+                    "www": "https://www.matrixprojects.net",
+                    "twitter": "https://twitter.com/kwridan",
+                    "github": "https://github.com/kwridan",
+                    "photo_url": speakersImgBaseUrl + "kassem-wridan.png"
                 },
             },
             talks: {

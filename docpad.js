@@ -142,6 +142,11 @@ docpadConfig = {
                         "name" : "Kaspersky",
                         "link" : "https://www.kaspersky.com/",
                         "logo_url" : sponsorsImgBaseUrl + "kaspersky_square.png",
+                    },
+                    {
+                        "name" : "Wayfair",
+                        "link" : "https://www.wayfair.com",
+                        "logo_url" : sponsorsImgBaseUrl + "wayfair-square.png",
                     }
                 ]
             },

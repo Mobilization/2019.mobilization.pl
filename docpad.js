@@ -133,9 +133,15 @@ docpadConfig = {
                 },
                 ],
                 copper: [
+                    
+                    {
+                        "name" : "Blacklane",
+                        "link" : "https://blacklane.com/ ",
+                        "logo_url" : sponsorsImgBaseUrl + "blacklane-square.png",
+                    },
                     {
                         "name" : "Heryson",
-                        "link" : "https://heryson.com/ ",
+                        "link" : "https://heryson.com/",
                         "logo_url" : sponsorsImgBaseUrl + "heryson_square.png",
                     },
                     {

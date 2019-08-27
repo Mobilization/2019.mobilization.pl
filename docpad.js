@@ -228,6 +228,11 @@ docpadConfig = {
                         "link": "https://bulldogjob.pl"
                     },
                     {
+                        "name": "Manning Publications",
+                        "logo_url": partnersImgBaseUrl + 'manning-square.png',
+                        "link": "htttps://manning.com"
+                    },
+                    {
                         "name": "Młodzi w Łodzi",
                         "logo_url": partnersImgBaseUrl + 'mwl-square.png',
                         "link": "https://mlodziwlodzi.pl/"

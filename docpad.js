@@ -223,6 +223,11 @@ docpadConfig = {
                 ],
                 media : [
                     {
+                        "name": "Bulldogjob",
+                        "logo_url": partnersImgBaseUrl + 'bulldogjob-square.png',
+                        "link": "https://bulldogjob.pl"
+                    },
+                    {
                         "name": "Młodzi w Łodzi",
                         "logo_url": partnersImgBaseUrl + 'mwl-square.png',
                         "link": "https://mlodziwlodzi.pl/"

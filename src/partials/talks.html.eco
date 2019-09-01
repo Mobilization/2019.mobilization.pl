@@ -11,15 +11,15 @@
                     <div class="col-12 col-sm-12 col-md-4 center">
                         <h4><%= talk.title %></h4>
                         <% if talk.speakers_keys.length > 0: %>
-                        <% for speaker_key in talk.speakers_keys: %>
-                        <% _speaker = @site.speakers[speaker_key] %>
-                        <div style="clear: both;">
-                            <a data-toggle="modal" href="#speaker-more-info-<%= speaker_key %>" style="display:block;">
-                                <img src="<%= _speaker.photo_url %>" alt="" class="small-photo" style="float: left;" />
-                                <p class="speaker-name"><%= _speaker.firstname %><br/><%= _speaker.lastname %></p>
-                            </a>
-                        </div>
-                        <% end %>
+                            <% for speaker_key in talk.speakers_keys: %>
+                            <% _speaker = @site.speakers[speaker_key] %>
+                            <div style="clear: both;">
+                                <a data-toggle="modal" href="#speaker-more-info-<%= speaker_key %>" style="display:block;">
+                                    <img src="<%= _speaker.photo_url %>" alt="" class="small-photo" style="float: left;" />
+                                    <p class="speaker-name"><%= _speaker.firstname %><br/><%= _speaker.lastname %></p>
+                                </a>
+                            </div>
+                            <% end %>
                         <% end %>
                     </div>
                     <div class="col-12 col-sm-12 col-md-8 center">

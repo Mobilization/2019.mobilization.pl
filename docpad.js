@@ -26,7 +26,7 @@ docpadConfig = {
             visibility: {
                 "call_for_papers": false,
                 "registration": false,
-                "talks": false,
+                "talks": true,
                 "agenda": false,
                 "speakers": true,
                 "sponsors": true,
@@ -133,7 +133,6 @@ docpadConfig = {
                 },
                 ],
                 copper: [
-                    
                     {
                         "name" : "Blacklane",
                         "link" : "https://blacklane.com/ ",
@@ -683,7 +682,105 @@ docpadConfig = {
                     "audience_level": "Beginner",
                     "language": "EN",
                     "speakers_keys": []
-                }
+                },
+                "talk-kooking_with_koroutine_recipes": {//7
+                    "title": "Cooking with Coroutine Recipes",
+                    "description_html": "Kotlin Coroutines or Koroutines graduated to stable release just last year and are fairly new for everyone adopting them. That means a lot of the information is not quite straightforward when it comes to implementing them in current projects. <BR>In this talk, you will be cooking up a hot pot of various Kotlin Coroutine approaches. You will be covering some aromatic recipes that provide step by step process to add that specific flavor to your current Kotlin and/or Android projects to unlock the full potential of Coroutines. By the end of the talk, you walk away with some really nice byte sized but complete usage approaches of Coroutines, solving daily problems in your current projects.",
+                    "speakers_keys": [/*speaker-filip-babic,*//*speaker-nishant-srivastava*/],
+                    "language": "EN",
+                    "audience_level" : "Intermediate"
+                },
+                "talk-mobile_visual_testing_with_vizzy": {//9
+                    "title": "Mobile Visual testing with Vizzy",
+                    "description_html": "In this talk Raul will show how to configure and use Vizzy for visual testing your app (platform agnostic)<BR><BR>You have your UI tests, and they verify that a button with the right text is on screen... but how do you check that the style is consistent, or that the padding hasn't changed, or anything about the actual visual representation of the UI.<BR>You can do it manually, but what if there were a tool that simplify that? That is what Vizzy does.",
+                    "speakers_keys": [/*speaker-raul-portales*/],
+                    "language": "EN",
+                    "audience_level" : "Intermediate"
+                },
+                "talk-mvvm_as_good_(anti)pattern_in_ios": {//12
+                    "title": "MVVM as good (anti)pattern in iOS",
+                    "description_html": "Nowadays there are a lot of materials, presentations & talks about how great MVVM architecture is. Hype about the view models look like a never ending story. There are a lot of developers who like this approach and use it in their own projects. I tried to go against the grain and show a different perspective of MVVM. I also try to answer questions like: Do we really need it? Does it solves any particular problem or is it overkill?.",
+                    "speakers_keys": [/*speaker-mateusz-szklarek*/],
+                    "language": "EN",
+                    "audience_level" : "Intermediate"
+                },
+                "talk-how_to_start_to_writing_autotests_and_not_go_crazy": {//17
+                    "title": "How to start to writing autotests and not go crazy",
+                    "description_html": "The mobile world is growing and developing. Our applications are not only “to download from a server and to show in a list”. Our applications are big infrastructure, increasing the complexity of projects and the desire to release faster. And if we want stable and frequent releases then we need autotests. But. Autotests - is a good solution, no doubts. But where to begin? How do you  write them? What underwater icebergs are  waiting for us? In my speech, I want to describe how to start. Together we will go through:<ul><li>history of the implementation of autotests in processes of the mobile department in KasperskyLab<li>choosing of appropriate tools<li>creating of code-style (yes-yes, autotest’s code is also a common program code)<li>our pain that we had and why we have created a new framework. And how this framework has made  our life easier<li>How to write end-to-end tests with integration tests. How to make sure  that your autotests start to work and that you receive the benefits as early as possible?<li>How have we made the process of creating screenshots light and fast?</ul>I’m sure that after my speech you will not be afraid of autotests.",
+                    "speakers_keys": [/*speaker-eugene-matsyuk*/],
+                    "language": "EN",
+                    "audience_level" : "Intermediate"
+                },
+                "talk-building_a_ci_cd_pipeline_for_your_mobile_app": {//18
+                    "title": "Building a CI/CD pipeline for your mobile app",
+                    "description_html": "Mobile apps have evolved over the years and there is many components to starting a new projects and having working and maintainable software. Something that has become important to building good mobile apps is having a CI/CD pipeline. In this talk I will cover the different components needed to create a successful pipeline. This will include choosing a git strategy, a choice of static code analysis tools, unit testing and automatic deployments with Fastlane.",
+                    "speakers_keys": [/*speaker-peter-john-welcome*/],
+                    "language": "EN",
+                    "audience_level" : "Intermediate"
+                },
+                "talk-android_mvi_with_jetpack_compose": {//19
+                    "title": "Android MVI with Jetpack Compose",
+                    "description_html": "A little intro on how Jetpack Compose will help use a real MVI approach in the Android world. Views will become dumber than ever!",
+                    "speakers_keys": [/*speaker-luca-nicoletti*/],
+                    "language": "EN",
+                    "audience_level" : "Intermediate"
+                },
+                "talk-kotlin/native_and_multiplatform_development_": {//21
+                    "title": "Kotlin/Native and Multiplatform Development ",
+                    "description_html": "This workshop will introduced you to Kotlin/Native and build a Kotlin Multiplatform app that runs on both iOS and Android using shared Kotlin code. We will cover following topics in this workshop Introduction to Kotlin/Native and Multiplatform Your First Kotlin/Native Program Creating a Multiplatform Project Shared Library from Android & iOS Networking & Concurrency using Ktor & Coroutines Designing Android & iOS user interface Debugging multiplatform Project Drawbacks",
+                    "speakers_keys": [/*speaker-vipul-shah*/],
+                    "language": "EN",
+                    "audience_level" : "Intermediate"
+                },
+                "talk-how_to_talk_to_computers_": {//27
+                    "title": "How to talk to computers ",
+                    "description_html": "A new line of thinking about interfacing with devices around human. Presentation will describe the possibilities, risks and challenges with voice communication both from design and ecosystem approach and implementation level.",
+                    "speakers_keys": [/*speaker-mateusz-figlewicz*/],
+                    "language": "EN",
+                    "audience_level" : "Intermediate"
+                },
+                "talk-how_i_moved_a_large_production_app_to_navigation_component": {//29
+                    "title": "How I moved a large production app to Navigation Component",
+                    "description_html": "For some time, the Android team from Google has been providing us a new, attractive solutions to problems that every Android Developer will encounter sooner or later in his career.<BR>One of such solutions is Navigation component, which simplify the implementation of the transition from screen to screen, and at the same time provide a tool that is an amiable to use and allows testing.<BR>In my talk I would like to raise the question, whether this will work well in every project?<BR>Why we decided to use Navigation component in our production app and how we dealt with problems on our way, as well as provide a knowledge about how to prepare for the migration from the current implementation to a new idea from Google.",
+                    "speakers_keys": [/*speaker-piotr-madry*/],
+                    "language": "EN",
+                    "audience_level" : "Intermediate"
+                },
+                "talk-structured_unit_testing_with_spek": {//32
+                    "title": "Structured unit testing with Spek",
+                    "description_html": "Are you tired of decrypting the JUnit test that you wrote a few weeks back? Do you want to write nice, readable & structured tests that are actually fun to write and joy to read? If you have answered yes to at least one of the questions above, I have a solution for you. Join this talk and fall again in love with unit testing. We will cover:<ul><li>Describe how Spek works<li>Comparison with JUnit <li>Sample tests for a project following a clean architecture pattern (data, domain & view layer)</ul>",
+                    "speakers_keys": [/*speaker-martin-petrulak*/],
+                    "language": "EN",
+                    "audience_level" : "Intermediate"
+                },
+                "talk-how_to_build_a_messenger_for_android?": {//37
+                    "title": "How to build a messenger for Android?",
+                    "description_html": "It looks so simple outside, the app which can send messages from one user and receive from others. This is what we were thinking from start. 9 months passed we're still on it. In this talk, I will go through the main parts of the messenger project such as transport, synchronization, architecture, storage, pagination as well as explain common mistakes we've made on the way to instant messenger. <BR><BR>You’ll leave this talk with a solid understanding of how modern messengers are built and the confidence to get started.",
+                    "speakers_keys": [/*speaker-andrii-rakhimov*/],
+                    "language": "It looks so simple outside, the app which can send messages from one user and receive from others. This is what we were thinking from start. 9 months passed we're still on it. In this talk, I will go through the main parts of the messenger project such as transport, synchronization, architecture, storage, pagination as well as explain common mistakes we've made on the way to instant messenger. You’ll leave this talk with a solid understanding of how modern messengers are built and the confidence to get started.",
+                    "audience_level" : "Intermediate"
+                },
+                "talk-functional_magic_in_swift": {//44
+                    "title": "Functional Magic in Swift",
+                    "description_html": "Do you find yourself creating messy code in order to transform Swift optionals? Do you wish you harnessed the functional power of Swift more? This talk is for you! You’ll learn about creating elegant code with map and flatMap, and some tips and tricks to use this magic to make your code more Swifty.<BR>Introduction",
+                    "speakers_keys": [/*speaker-neem-serra*/],
+                    "language": "EN",
+                    "audience_level" : "Beginner"
+                },
+                "talk-iap_subscriptions_-_lessons_learned": {//47
+                    "title": "IAP Subscriptions - Lessons learned",
+                    "description_html": "Traps, Tips and Tricks on implementing (auto-)renewable subscriptions with In-app purchase APIs on iOS.",
+                    "speakers_keys": [/*speaker-tomasz-grynfelder-renk*/],
+                    "language": "EN",
+                    "audience_level" : "Intermediate"
+                },
+                "talk-coroutines_vs_reactivex_handling_errors": {//54
+                    "title": "Coroutines vs. ReactiveX: Handling errors",
+                    "description_html": "Imagine you’re writing asynchronous code.<BR><BR>- Are you using callbacks? (no)<BR>- Are you using Futures? Reactive streams?<BR>- Are you using async features of your language of choice?<BR><BR>Whatever the answers are, you want to do error handling right. Let’s compare Coroutines and ReactiveX in this regard.<BR><BR>Whether you’re coming from the Android world or not, you’ve probably heard about Kotlin (the programming language) and its asynchronous programming concept called Coroutines. It’s a neat concept that helps you create execution blocks similar to light-weight threads, while at the same time allowing you to write your asynchronous code in a synchronous fashion.<BR><BR>On the other hand, many of us got really (really) used to Reactive Extensions in many languages, and we prefer to go down this road. With ReactiveX, you can chain your asynchronous blocks in future-like structures, and easily control threading around them.<BR><BR>Well, you know how it usually goes - you read about something (aha! what is this coroutines thing)… maybe you see a couple of talks on the topic, maybe you get interested. After you try it out and decide to use it in a real project, you start typing your code… and boom! Your program crashes. You then go to StackOverflow to check for answers to your problem, and surprise: you’re not handling errors properly. You copy-paste the solution without any edits or tests and you’re ready for release.<BR><BR>Hopefully this is not you. You want to check everything before using a new language or library, you want to fully understand the consequences of switching over to a different solution from the one you currently have. There are some quirks in every approach, sure, but do you know all of the corner cases?<BR><BR>That’s why we need to have this talk. Let’s go together through the most interesting examples of how we can get (and handle) errors with ReactiveX and Coroutines.",
+                    "speakers_keys": [/*speaker-milos-marinkovic*/],
+                    "language": "EN",
+                     "audience_level" : "Intermediate"
+                },
             },
             breaks: {
                 'break-registration': {

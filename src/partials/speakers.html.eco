@@ -25,7 +25,7 @@
 						</div>
 						<div class="info-text">
 							<h3 style="margin-bottom: 5px">
-								<a href="#"><%= speaker.firstname %> <%= speaker.lastname %></a>
+								<%= speaker.firstname %> <%= speaker.lastname %>
 							</h3>
 						</div>
 					</div>
@@ -97,15 +97,6 @@
 			<% end %>
 		<% end %>
 		</div>
-
-		<div class="gap-40"></div>
-		<% if @site.visibility.call_for_papers: %>
-			<div class="row">
-				<div class="general-btn text-center">
-					<a class="btn btn-primary" href="https://bit.ly/mobilization8-c4p-webpage"><i class="far fa-thumbs-up"></i> Become our Speaker!</a>
-				</div>
-			</div>
-		<% end %>
 		<!-- Content row 2 end -->
 	</div>
 	<!--/ Container end -->

@@ -657,6 +657,7 @@ docpadConfig = {
                 },
             },
             talks: {
+                /*
                 "talk-tbd": {
                     "title": "TBD",
                     "description_html": "TBD",
@@ -683,7 +684,8 @@ docpadConfig = {
                     "language": "EN",
                     "speakers_keys": []
                 },
-                "talk-kooking_with_koroutine_recipes": {//7
+                */
+                "talk-cooking_with_koroutine_recipes": {//7
                     "title": "Cooking with Coroutine Recipes",
                     "description_html": "Kotlin Coroutines or Koroutines graduated to stable release just last year and are fairly new for everyone adopting them. That means a lot of the information is not quite straightforward when it comes to implementing them in current projects. <BR>In this talk, you will be cooking up a hot pot of various Kotlin Coroutine approaches. You will be covering some aromatic recipes that provide step by step process to add that specific flavor to your current Kotlin and/or Android projects to unlock the full potential of Coroutines. By the end of the talk, you walk away with some really nice byte sized but complete usage approaches of Coroutines, solving daily problems in your current projects.",
                     "speakers_keys": [/*speaker-filip-babic,*//*speaker-nishant-srivastava*/],

@@ -662,7 +662,7 @@ docpadConfig = {
                     "description_html": "TBD",
                     "speakers_keys": [],
                     "language": "EN",
-                    "audience_level" : "Beginner"
+                    "audience_level" : "Beginner",
                 },
                 "talk-empty": {
                     "title": "",
@@ -844,9 +844,9 @@ docpadConfig = {
                     "language": "EN",
                     "audience_level" : "Intermediate"
                 },
-                "talk-readable_kotlin": {//77
-                    "title": "Readable Kotlin",
-                    "description_html": "With great power comes great responsibility. New and fancy Kotlin features can us much improve readability as they can help us make code absurdly complicated. In this presentation we will see both. Let’s learn how to use Kotlin features to make code better, what mistakes should be avoided, and what is the worst you can do in Kotlin. ",
+                "talk-kotlin-not-to-do-list": {//77
+                    "title": "Kotlin Not-to-Do List - What we should avoid doing in Kotlin",
+                    "description_html": "Kotlin gives us a lot of possibilities, but with every power comes responsibility. What should we avoid doing in Kotlin? What are Kotlin internal contracts in terms of different features and functions? What is dangerous and should be avoided? How to code responsively?",
                     "speakers_keys": ['speaker-marcin-moskala'],
                     "language": "EN",
                     "audience_level" : "Intermediate"

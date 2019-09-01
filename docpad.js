@@ -725,14 +725,14 @@ docpadConfig = {
                     "language": "EN",
                     "audience_level" : "Intermediate"
                 },
-                "talk-kotlin/native_and_multiplatform_development_": {//21
+                "talk-kotlin_native_and_multiplatform_development_": {//21
                     "title": "Kotlin/Native and Multiplatform Development ",
                     "description_html": "This workshop will introduced you to Kotlin/Native and build a Kotlin Multiplatform app that runs on both iOS and Android using shared Kotlin code. We will cover following topics in this workshop Introduction to Kotlin/Native and Multiplatform Your First Kotlin/Native Program Creating a Multiplatform Project Shared Library from Android & iOS Networking & Concurrency using Ktor & Coroutines Designing Android & iOS user interface Debugging multiplatform Project Drawbacks",
                     "speakers_keys": ['speaker-vipul-shah'],
                     "language": "EN",
                     "audience_level" : "Intermediate"
                 },
-                "talk-how_to_talk_to_computers_": {//27
+                "talk-how_to_talk_to_computers": {//27
                     "title": "How to talk to computers ",
                     "description_html": "A new line of thinking about interfacing with devices around human. Presentation will describe the possibilities, risks and challenges with voice communication both from design and ecosystem approach and implementation level.",
                     "speakers_keys": ['speaker-mateusz-figlewicz'],
@@ -809,28 +809,28 @@ docpadConfig = {
                     "language": "EN",
                     "audience_level" : "Advanced"
                 },
-                "talk-2+_years_of_flutter_-_retrospection": {//70
+                "talk-2_years_of_flutter_-_retrospection": {//70
                     "title": "2+ years of Flutter - Retrospection",
                     "description_html": "Flutter is lately gaining more and more traction, but how is it in practice?<BR>In this talk we will reflect on our 2 years long journey - what went well and what didn't and why we're still excited about it.<BR><BR>In this talk you will learn when Flutter can be useful for you and when to consider it for your next app.",
                     "speakers_keys": ['speaker-michal-baran', 'speaker-rafal-wachol'],
                     "language": "EN",
                     "audience_level" : "Intermediate"
                 },
-                "talk-two_perspectives_on_ios_accessibility_": {//71
+                "talk-two_perspectives_on_ios_accessibility": {//71
                     "title": "Two Perspectives on iOS Accessibility ",
                     "description_html": "During our talk, we would like to present two perspectives on implementing proper accessibility support on iOS. We will focus on visual impairment-related topics and try to clearly distinguish between efforts to technically meet the requirement of \"providing accessibility support\" and factually designing solutions that meet the needs of potential users. It is one thing to comply with the regulations, and other – to design and build really usable products.",
                     "speakers_keys": ['speaker-milosz-staszewski', 'speaker-mateusz-duc'],
                     "language": "EN",
                     "audience_level" : "Intermediate"
                 },
-                "talk-core_data:_alive_and_kicking": {//73
+                "talk-core_data_alive_and_kicking": {//73
                     "title": "Core Data: Alive and Kicking",
                     "description_html": "Core Data is Apple’s native framework for persisting data that works across all their platforms.<BR><BR>It has a reputation of being hard to use, not performant, and complicated to debug - many people have used other persistence methods such as SQLite or Realm.<BR><BR>But Over the past few years it has improved and continues to improve. A few years ago a method was introduced to more easy create stacks and use multiple threads for performance. At WWDC this year further changes were made to allow some storage in iCloud and also support with diffable data sources.<BR><BR>This will not be a beginner tutorial for Core Data. I propose to cover modern ways of working through best practices: - Setting up data sources, effective fetching of data from stores - Cloud storage, connecting to UITableViews/UICollectionViews through the new diffable data sources. How to bind SwiftUI Views to data.<BR><BR>Many people think that Core Data is unsupported and not a good solution for persistence. I will show how it is still relevant in modern application development and it is still Alive and Kicking.",
                     "speakers_keys": ['speaker-abizer-nasir'],
                     "language": "EN",
                     "audience_level" : "Intermediate"
                 },
-                "talk-voyager_-_di_and_navigation_for_flutter": {//74
+                "talk-voyager_di_and_navigation_for_flutter": {//74
                     "title": "Voyager - DI and Navigation for Flutter",
                     "description_html": "Voyager is the widget router. It combines yaml configuration map, custom plugins architecture and dependency injection into one comprehensive system that allows you to define readable requirements as code and turn them into flutter components.<BR><BR>If you have ever thought HOW MIGHT WE:<ul><li>make deep links easy<li>make requirements trackable across git history and different branches<li>A/B test different navigation flows without code pollution</ul>I might have some answers for you.",
                     "speakers_keys": ['speaker-lukasz-wisniewski'],

@@ -781,6 +781,97 @@ docpadConfig = {
                     "language": "EN",
                      "audience_level" : "Intermediate"
                 },
+                "talk-how_to_test_on_you_flutter_app": {//56
+                    "title": "How to test on you Flutter app",
+                    "description_html": "Creating a cross platform app on Flutter is really efficient but can everything be tested and automated so you can create high quality apps. And if everything is test does run on IOS and Android as expected.",
+                    "speakers_keys": [/*speaker-dylan-drost*/],
+                    "language": "EN",
+                    "audience_level" : "Intermediate"
+                },
+                "talk-tips_tricks_for_daily_ui_development": {//57
+                    "title": "Tips & tricks for daily UI development",
+                    "description_html": "Time spent on developing User Interfaces is often costly when it comes to mobile software development. It's also one of main reasons that led to the rise of cross-platform technologies. During this talk, I'd like to show you a couple of techniques how we can optimise UI development and maintain good code quality while working on 100% Swift and UIKit codebase.",
+                    "speakers_keys": [/*speaker-pawel-urbanowicz*/],
+                    "language": "EN",
+                    "audience_level" : "Intermediate"
+                },
+                "talk-make_some_move_with_motionlayout": {//58
+                    "title": "Make some move with MotionLayout",
+                    "description_html": "Always wanted to build better animations on Android ? Let’s explore Motion Layout in order to know its capabilities. MotionLayout beta-1 was release during the Google I/O. It promises to simplify the way we create animation on Android. Based on XML we will be able to describe on animation that could connected to a swipe on the screen or a native component.<BR><BR>In this talk, I will explore an Android app that list version of Android. For each version we will discover a new example, starting with basic modification of a constraint. Then adding KeyFrame with position, scale and rotation. Next playing with customs attributes to change the image color saturation. Lastly we will explore connection with Coordinator Layout, View Pager, Drawer and SeekBar.<BR><BR>At the end, you should know how to use and what are the capabilities of MotionLayout. Should you use it in your application ?<BR><BR>Want to know more, you can read this article : https://medium.com/xebia-france/move-my-app-with-motionlayout-part-1-7800637feb22",
+                    "speakers_keys": [/*speaker-alexandre-genet*/],
+                    "language": "EN",
+                    "audience_level" : "Intermediate"
+                },
+                "talk-architecting_android_and_ios_app_features_for_2020": {//59
+                    "title": "Architecting Android and iOS app features for 2020",
+                    "description_html": "Inspired by some well known architecture patterns like MVVM/MVI, I set out to come up with an agnostic set of principles that would help developers build features in their app in a robust, safe and (importantly) “testable” way. At Instacart, we've started to use these principles to build features on both iOS and Android.<BR><BR>In this talk, we'll examine these principles, discuss the merits (+ disadvantages!) and see how these can be implemented with precise code examples. Having implemented this pattern for sometime now at Instacart, I'll also share some of our learnings along the way for both platforms.",
+                    "speakers_keys": [/*speaker-kaushik-gopal*/],
+                    "language": "EN",
+                    "audience_level" : "Advanced"
+                },
+                "talk-2+_years_of_flutter_-_retrospection": {//70
+                    "title": "2+ years of Flutter - Retrospection",
+                    "description_html": "Flutter is lately gaining more and more traction, but how is it in practice?<BR>In this talk we will reflect on our 2 years long journey - what went well and what didn't and why we're still excited about it.<BR><BR>In this talk you will learn when Flutter can be useful for you and when to consider it for your next app.",
+                    "speakers_keys": [/*speaker-michal-baran, speaker-rafal-wachol*/],
+                    "language": "EN",
+                    "audience_level" : "Intermediate"
+                },
+                "talk-two_perspectives_on_ios_accessibility_": {//71
+                    "title": "Two Perspectives on iOS Accessibility ",
+                    "description_html": "During our talk, we would like to present two perspectives on implementing proper accessibility support on iOS. We will focus on visual impairment-related topics and try to clearly distinguish between efforts to technically meet the requirement of \"providing accessibility support\" and factually designing solutions that meet the needs of potential users. It is one thing to comply with the regulations, and other – to design and build really usable products.",
+                    "speakers_keys": [/*speaker-milosz-staszewski, speaker-mateusz-duc*/],
+                    "language": "EN",
+                    "audience_level" : "Intermediate"
+                },
+                "talk-core_data:_alive_and_kicking": {//73
+                    "title": "Core Data: Alive and Kicking",
+                    "description_html": "Core Data is Apple’s native framework for persisting data that works across all their platforms.<BR><BR>It has a reputation of being hard to use, not performant, and complicated to debug - many people have used other persistence methods such as SQLite or Realm.<BR><BR>But Over the past few years it has improved and continues to improve. A few years ago a method was introduced to more easy create stacks and use multiple threads for performance. At WWDC this year further changes were made to allow some storage in iCloud and also support with diffable data sources.<BR><BR>This will not be a beginner tutorial for Core Data. I propose to cover modern ways of working through best practices: - Setting up data sources, effective fetching of data from stores - Cloud storage, connecting to UITableViews/UICollectionViews through the new diffable data sources. How to bind SwiftUI Views to data.<BR><BR>Many people think that Core Data is unsupported and not a good solution for persistence. I will show how it is still relevant in modern application development and it is still Alive and Kicking.",
+                    "speakers_keys": [/*speaker-abizer-nasir*/],
+                    "language": "EN",
+                    "audience_level" : "Intermediate"
+                },
+                "talk-voyager_-_di_and_navigation_for_flutter": {//74
+                    "title": "Voyager - DI and Navigation for Flutter",
+                    "description_html": "Voyager is the widget router. It combines yaml configuration map, custom plugins architecture and dependency injection into one comprehensive system that allows you to define readable requirements as code and turn them into flutter components.<BR><BR>If you have ever thought HOW MIGHT WE:<ul><li>make deep links easy<li>make requirements trackable across git history and different branches<li>A/B test different navigation flows without code pollution</ul>I might have some answers for you.",
+                    "speakers_keys": [/*speaker-lukasz-wisniewski*/],
+                    "language": "EN",
+                    "audience_level" : "Beginner"
+                },
+                "talk-jump-starting_with_swift_ui": {//75
+                    "title": "Jump-starting with Swift UI",
+                    "description_html": "SwiftUI is arguably the most exciting thing announced this year at WWDC. The new Apple framework has quickly become popular amongst developers, as a sleek new API for designing and writing code across all Apple platforms -- iOS, watchOS, MacOS, and tvOS! <BR><BR>In this talk, we’ll walk through examples and touch on all the basics to get you up and going with SwiftUI, including creating and combining views, state variables, experimenting with layouts such as HStack and VStack, dynamic lists, and more!",
+                    "speakers_keys": [/*speaker-timirah-james*/],
+                    "language": "EN",
+                    "audience_level" : "Intermediate"
+                },
+                "talk-readable_kotlin": {//77
+                    "title": "Readable Kotlin",
+                    "description_html": "With great power comes great responsibility. New and fancy Kotlin features can us much improve readability as they can help us make code absurdly complicated. In this presentation we will see both. Let’s learn how to use Kotlin features to make code better, what mistakes should be avoided, and what is the worst you can do in Kotlin. ",
+                    "speakers_keys": [/*speaker-marcin-moskala*/],
+                    "language": "EN",
+                    "audience_level" : "Intermediate"
+                },
+                "talk-invest-in-test": {//90
+                    "title": "Invest in tests - Unit testing iOS applications",
+                    "description_html": "Unit tests is often forgotten part in a fast-paced culture. I will use my past experience and examples to teach why unit tests should be integrated into regular workflow. We will see how to write testable code with attention to test things that matter with some latest XCTest features from iOS 13 We will discuss how to write unit tests that carry high value, spot potential bugs and pitfalls to avoid while trying to only test things that matter. The presentation will be accompanied by examples to demonstrate how writing testable code should not be regarded as a boring and discretionary task, but rather part of regular software development and how the choice of architecture makes a big difference in the test quality. Attendees of the session will take away the following:<ol><li>What exactly is unit testing and why should I worry about it? <li>Unit tests as a tool to write quality code eventually leading to a reduced future maintenance cost for the codebase <li>Code reviewing unit tests <li> Demystifying the illusion of code coverage obsession <li> Collecting performance metrics using XCTest (New in iOS 13)",
+                    "speakers_keys": [/*speaker-jayesh-kawli*/],
+                    "language": "EN",
+                    "audience_level" : "Intermediate"
+                },
+                "talk-breaking-the-monolith": {//77
+                    "title": "Breaking the monolith",
+                    "description_html": "Eight years ago, when we started building Allegro for iOS, there was no Swift, our team was very small and no one thought about scaling the process. Since that time applications have grown significantly, have become more complex and now lots of teams have to deal with decisions that were taken when mobile app development was still a niche. This presentation is a subjective journey through changes in Allegro iOS application, resulting in breaking the monolith into module driven architecture. We will tell you how our architecture has evolved, how we’ve scaled our process, what we’ve improved and what did wrong. Everything with a dose of pragmatism and our experiences after successfully breaking the monolith on the backend and progressing it to microservice architecture. Showing that two different worlds of backend and mobile suffer due to the same fundamental problems when scaling up." ,
+                    "speakers_keys": [/*speaker-krzysztof-pawski, speaker-tomasz-gebarowski*/],
+                    "language": "EN",
+                    "audience_level" : "Intermediate"
+                },
+                "talk-xcode_project_generation": {//91
+                    "title": "Xcode Project Generation",
+                    "description_html": "Managing large iOS projects, like building the Bloomberg Professional mobile application, can be challenging, as they can quickly run into scaling issues. This past year, the iOS Platform team at Bloomberg undertook a few initiatives to build out and use open source tooling to help manage their Xcode projects. This talk will cover some of the key insights and learnings from their experience on the nuances of Xcode projects. We'll see why project generation tooling may be needed and the landscape of tools out there. ",
+                    "speakers_keys": [/*speaker-kassem-wridan*/],
+                    "language": "EN",
+                    "audience_level" : "Intermediate"
+                },
             },
             breaks: {
                 'break-registration': {

@@ -89,14 +89,12 @@ docpadConfig = {
                     "link" : "https://binarapps.com/"
                 },
                 {
-                    "name" : "Free",
-                    "logo_url" : sponsorsImgBaseUrl + "mobilization-free.png",
-                    "link" : "mailto:sponsors@mobilization.pl?subject=Mobilization IX sponsorship offer&body=Dear Mobilization, We are interested in sponsoring Mobilization IX. Please can you send a sponsorship offer for 2019"
+                    "name" : "Reserved",
+                    "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
                 },
                 {
-                    "name" : "Free",
+                    "name" : "Reserved",
                     "logo_url" : sponsorsImgBaseUrl + "mobilization-free.png",
-                    "link" : "mailto:sponsors@mobilization.pl?subject=Mobilization IX sponsorship offer&body=Dear Mobilization, We are interested in sponsoring Mobilization IX. Please can you send a sponsorship offer for 2019"
                 },
                 {
                     "name" : "Free",

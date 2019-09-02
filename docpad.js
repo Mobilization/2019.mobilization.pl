@@ -152,6 +152,11 @@ docpadConfig = {
                         "name" : "Wayfair",
                         "link" : "https://www.wayfair.com",
                         "logo_url" : sponsorsImgBaseUrl + "wayfair-square.png",
+                    },
+                    {
+                        "name" : "Workday",
+                        "link" : "https://www.workday.com/en-us/company/careers.html",
+                        "logo_url" : sponsorsImgBaseUrl + "workday-square.png",
                     }
                 ]
             },

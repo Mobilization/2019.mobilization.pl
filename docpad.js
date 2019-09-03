@@ -94,7 +94,7 @@ docpadConfig = {
                 },
                 {
                     "name" : "Reserved",
-                    "logo_url" : sponsorsImgBaseUrl + "mobilization-free.png",
+                    "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
                 },
                 {
                     "name" : "Free",
@@ -856,7 +856,7 @@ docpadConfig = {
                 },
                 "talk-invest-in-test": {//90
                     "title": "Invest in tests - Unit testing iOS applications",
-                    "description_html": "Unit tests is often forgotten part in a fast-paced culture. I will use my past experience and examples to teach why unit tests should be integrated into regular workflow. We will see how to write testable code with attention to test things that matter with some latest XCTest features from iOS 13 We will discuss how to write unit tests that carry high value, spot potential bugs and pitfalls to avoid while trying to only test things that matter. The presentation will be accompanied by examples to demonstrate how writing testable code should not be regarded as a boring and discretionary task, but rather part of regular software development and how the choice of architecture makes a big difference in the test quality. Attendees of the session will take away the following:<ol><li>What exactly is unit testing and why should I worry about it? <li>Unit tests as a tool to write quality code eventually leading to a reduced future maintenance cost for the codebase <li>Code reviewing unit tests <li> Demystifying the illusion of code coverage obsession <li> Collecting performance metrics using XCTest (New in iOS 13)",
+                    "description_html": "Unit tests is often forgotten part in a fast-paced culture. I will use my past experience and examples to teach why unit tests should be integrated into regular workflow. We will see how to write testable code with attention to test things that matter. We will discuss how to write unit tests that carry high value, spot potential bugs and pitfalls to avoid while trying to only test things that matter. The presentation will be accompanied by examples to demonstrate how writing testable code should not be regarded as a boring and discretionary task, but rather part of regular software development and how the choice of architecture makes a big difference in the test quality. Attendees of the session will take away the following:<ol><li>What exactly is unit testing and why should I worry about it? <li>Unit tests as a tool to write quality code eventually leading to a reduced future maintenance cost for the codebase <li>Code reviewing unit tests <li> Demystifying the illusion of code coverage obsession.",
                     "speakers_keys": ['speaker-jayesh-kawli'],
                     "language": "EN",
                     "audience_level" : "Intermediate"

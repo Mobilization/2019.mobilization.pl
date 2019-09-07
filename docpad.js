@@ -49,22 +49,17 @@ docpadConfig = {
             },
             sponsors: {
                 diamond: [
-                {
-                    "name" : "Reserved",
-                    "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
-                    "link" : ""
-                },
+                    {
+                        "name" : "ePassi",
+                        "logo_url" : sponsorsImgBaseUrl + "epassi.png",
+                        "link" : "https://www.epassi.fi/en/home"
+                    },
                 ],
                 platinum: [
                 {
                     "name" : "Allegro",
                     "logo_url" : sponsorsImgBaseUrl + "allegro_submar_tech_300_300.png",
                     "link": "https://allegro.tech/"
-                },
-                 {
-                    "name" : "ePassi",
-                    "logo_url" : sponsorsImgBaseUrl + "epassi.png",
-                    "link" : "https://www.epassi.fi/en/home"
                 },
                 {
                     "name" : "Harman",
@@ -79,7 +74,7 @@ docpadConfig = {
                {
                     "name" : "Intive",
                     "logo_url" : sponsorsImgBaseUrl + "intive_logo_blue_square.png",
-                    "link": ""
+                    "link": "https://www.intive.com"
                 },
                 ],
                 gold: [
@@ -109,8 +104,9 @@ docpadConfig = {
                     "link" : "https://www.cybercom.com/pl/Poland/"
                 },
                 {
-                    "name" : "Reserved",
-                    "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
+                    "name" : "Free",
+                    "logo_url" : sponsorsImgBaseUrl + "mobilization-free.png",
+                    "link" : "mailto:sponsors@mobilization.pl?subject=Mobilization IX sponsorship offer&body=Dear Mobilization, We are interested in sponsoring Mobilization IX. Please can you send a sponsorship offer for 2019"
                 },
                 {
                     "name" : "Free",

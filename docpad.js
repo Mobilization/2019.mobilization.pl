@@ -232,7 +232,12 @@ docpadConfig = {
                         "name": "GDG DevFest Wrocław",
                         "link": "https://devfest.wroclaw.pl/",
                         "logo_url" : partnersImgBaseUrl + 'gdg-devfest-wroclaw-square.png'
-                    }                                                     
+                    },
+                    {
+                        "name": "Soldiers of Mobile",
+                        "link": "https://www.facebook.com/soldiersofmobile/",
+                        "logo_url" : partnersImgBaseUrl + 'soldiers-of-mobile-square.png'
+                    }                                                       
                 ],
                 media : [
                     {

@@ -227,7 +227,12 @@ docpadConfig = {
                         "name" : "Poznań Flutter Developers Group",
                         "logo_url" : partnersImgBaseUrl + 'pfdg-square.png',
                         "link" : "https://www.facebook.com/poznanflutter"
-                    }                                                             
+                    },
+                    {
+                        "name": "GDG DevFest Wrocław",
+                        "link": "https://devfest.wroclaw.pl/",
+                        "logo_url" : partnersImgBaseUrl + 'gdg-devfest-wroclaw-square.png'
+                    }                                                     
                 ],
                 media : [
                     {

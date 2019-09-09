@@ -231,7 +231,7 @@ docpadConfig = {
                     },
                     {
                         "name": "Soldiers of Mobile",
-                        "link": "https://www.facebook.com/soldiersofmobile/",
+                        "link": "https://SzkoleniaAndroid.pl/blog/",
                         "logo_url" : partnersImgBaseUrl + 'soldiers-of-mobile-square.png'
                     }                                                       
                 ],

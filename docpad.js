@@ -648,7 +648,7 @@ docpadConfig = {
                 "speaker-alex-zhukovich": {//64
                     "firstname": "Alex",
                     "lastname": "Zhukovich",
-                    "bio_html": "Alex Zhukovich has been developing Android since 2011. Currently, he is working in TomTom. He is a public speaker in Europe and software enthusiast with a passion for technologies, which share thoughts & experiences on the private technical <a href='https://alexzh.com'>blog</a> and YouTube <a href='bit.ly/AlexZhYouTube'>channel</a>",
+                    "bio_html": "Alex Zhukovich has been developing Android since 2011. Currently, he is working for Takeaway.com. He is a public speaker in Europe and software enthusiast with a passion for technologies, which share thoughts & experiences on the private technical <a href='https://alexzh.com'>blog</a> and YouTube <a href='bit.ly/AlexZhYouTube'>channel</a>",
                     "www": "https://alexzh.com",
                     "twitter": "https://twitter.com/Alex_Zhukovich",
                     "github": "https://github.com/AlexZhukovich",

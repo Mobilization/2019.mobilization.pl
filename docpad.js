@@ -31,8 +31,8 @@ docpadConfig = {
                 "speakers": true,
                 "sponsors": true,
                 "partners": true,
-                "venue": false,
-                "workshops": false,
+                "venue": true,
+                "workshops": true,
             },
             event: {
                 title: 'Mobilization 2019',
@@ -1209,17 +1209,17 @@ docpadConfig = {
                 },
             },
             workshops: {
-                "workshop-1": {
-                    "title": "Workshop's TITLE 1",
-                    "datetime": "25th October, 8:00 - 14:00",
-                    "description_html": "<b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                "workshop-robust-ui": {
+                    "title": "Creating robust Android UI tests",
+                    "datetime": "25th October, 9:00 - 17:00",
+                    "description_html": "Mobile apps are growing. They become more complex and require more testing. It means that it is time to integrate automated tests to your project inefficient way because they should be fast and stable. During this workshop, we will write a lot of test cases efficiently. We start with a fast introduction to Espresso and UiAutomator frameworks. Afterwards, we are moving to write different types of UI tests and finally, we create a DSL which helps us to write stable test cases with minimum noise..<br>To participate in this workshop purchase a separate <a href='https://mobilization-ix-robust-ui-workshop.konfeo.com/en/groups'>ticket</a>.",
                     "speakers_keys": ['speaker-alex-zhukovich'],
                 },
-                "workshop-2": {
-                    "title": "Workshop's TITLE 2",
-                    "datetime": "27th October, 8:00 - 14:00",
-                    "description_html": "<b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-                    "speakers_keys": ['speaker-alex-zhukovich'],
+                "workshop-kotlin-coroutines": {
+                    "title": "Kotlin Coroutines",
+                    "datetime": "28th October, 9    :00 - 17:00",
+                    "description_html": "The workshop covers asynchronous programming in Kotlin using coroutines. It covers both build-in support for coroutines and dives deeper into <i>kotlinx.coroutines</i> library. In the workshop we cover:<ul style='text-aling:left'><li>Styles of concurrence<li>Sequence builders<li>Continuation<li>Understanding how suspension works<li>Coroutine Context<li>Interceptors and dispatchers<li>Coroutine Scope<li>Coroutine builders<li>Structured concurrency<li>Understanding Job<li>Composing suspending functions<li>Exceptions handling<li>Shared mutable state and concurrency<li>Channels<li>Actors<li>Unit testing.<br>To participate in this workshop purchase a separate <a href='https://mobilization-ix-kotlin-coroutines-workshop.konfeo.com/en/groups'>ticket</a>.",
+                    "speakers_keys": ['speaker-marcin-moskala']
                 }
             }
         },

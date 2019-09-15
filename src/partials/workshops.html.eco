@@ -1,4 +1,4 @@
-<section id="workshops" class="section-padding">
+<section id="ts-workshops" class="section-padding">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
@@ -10,22 +10,23 @@
 			</div>
 		</div>
         <% for workshop_key, workshop of @site.workshops: %>
-		<div class="row text-center">
-			<div class="col-12 details">
-				<h2>
-                    <%= workshop.title %>
-				</h2>
-                <p>
-                    <% for speaker_key in workshop.speakers_keys: %>
-                    <% speaker = @site.speakers[speaker_key] %>
-                    <a data-toggle="modal" href="#speaker-more-info-<%= speaker_key %>" style="display:block;"><img src="<%= speaker.photo_url %>" alt="" class="photo" /> <%= speaker.firstname %> <%= speaker.lastname %></a>
-                    <% end %>
-                    <small><i><%= workshop.datetime %></i></small>
-                </p>
-                <div>
-                    <%- workshop.description_html %>
-                </div>
-			</div>
+		<div class="row talk">
+			<div class="anchor" id="<%= workshop_key %>"></div>
+			<div class="col-12 col-sm-12 col-md-4 center">
+                        <h4><%= workshop.title %></h4>
+                        <% for speaker_key in workshop.speakers_keys: %>
+                        <% speaker = @site.speakers[speaker_key] %>
+                        <div style="clear: both;">
+                            <a data-toggle="modal" href="#speaker-more-info-<%= speaker_key %>" style="display:block;">
+                                <img src="<%= speaker.photo_url %>" alt="" class="small-photo" style="float: left;" />
+                                <p class="speaker-name"><%= speaker.firstname %><br/><%= speaker.lastname %></p>
+                            </a>
+                        </div>
+                        <% end %>
+			</div>			
+				<div class="col-12 col-sm-12 col-md-8 center">
+					<%- workshop.description_html %>
+				</div>
 		</div>
 		<% end %>
 	</div>

@@ -2405,3 +2405,18 @@ a {
 a:hover {
   color: rgb(10, 150, 0)
 }
+
+#workshops {
+  background: #f3f4f3;
+}
+
+#workshops .details {
+  margin-bottom: 40px;
+}
+
+#workshops .photo {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-size: cover;
+}

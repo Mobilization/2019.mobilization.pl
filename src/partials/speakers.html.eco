@@ -51,6 +51,25 @@
 								<div class="bio">
 									<%- speaker.bio_html %>
 								</div>
+								<% if @site.visibility.workshops: %>
+									<div class="workshop">
+										<% speaker_workshops = Array() %>
+										<% for workshop_key, workshop of @site.workshops: %>
+											<% if speaker_key in workshop.speakers_keys: %>
+												<% speaker_workshops.push(workshop) %>
+											<% end %>
+										<% end %>
+										<% if speaker_workshops.length > 0: %>
+											<span><small>Workshops:</small><br/>
+												<% for workshop in speaker_workshops: %>
+												<a style="cursor: pointer" onclick="window.location=('#workshops')" data-dismiss="modal">
+													<strong><%= workshop.title %></strong>
+												</a><br/>
+												<% end %>
+											</span>
+										<% end %>
+									</div>
+								<% end %>
 								<div class="talk">
 									<% speaker_talk_keys = Array() %>
 									<% for talk_key, talk of @site.talks: %>

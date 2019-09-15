@@ -1,0 +1,32 @@
+<section id="workshops" class="section-padding">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="section-title-header text-center">
+					<h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">
+						Workshops
+					</h1>
+				</div>
+			</div>
+		</div>
+        <% for workshop_key, workshop of @site.workshops: %>
+		<div class="row text-center">
+			<div class="col-12 details">
+				<h2>
+                    <%= workshop.title %>
+				</h2>
+                <p>
+                    <% for speaker_key in workshop.speakers_keys: %>
+                    <% speaker = @site.speakers[speaker_key] %>
+                    <a data-toggle="modal" href="#speaker-more-info-<%= speaker_key %>" style="display:block;"><img src="<%= speaker.photo_url %>" alt="" class="photo" /> <%= speaker.firstname %> <%= speaker.lastname %></a>
+                    <% end %>
+                    <small><i><%= workshop.datetime %></i></small>
+                </p>
+                <div>
+                    <%- workshop.description_html %>
+                </div>
+			</div>
+		</div>
+		<% end %>
+	</div>
+</section>

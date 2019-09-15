@@ -7,6 +7,7 @@ layout: 'main'
 <% if @site.visibility.sponsors: %><%- @partial('sponsors.html', @) %><% end %>
 <% if @site.visibility.partners: %><%- @partial('partners.html', @) %><% end %>
 <% if @site.visibility.speakers: %><%- @partial('speakers.html', @) %><% end %>
+<% if @site.visibility.workshops: %><%- @partial('workshops.html.eco', @) %><% end %>
 <% if @site.visibility.talks: %><%- @partial('talks.html', @) %><% end %>
 <% if @site.visibility.agenda: %><%- @partial('agenda.html.eco', @) %><% end %>
 <% if @site.visibility.venue: %><%- @partial('venue.html', @) %><% end %>

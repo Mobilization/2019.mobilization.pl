@@ -239,6 +239,11 @@ docpadConfig = {
                         "name": "Soldiers of Mobile",
                         "link": "https://SzkoleniaAndroid.pl/blog/",
                         "logo_url" : partnersImgBaseUrl + 'soldiers-of-mobile-square.png'
+                    },
+                    {
+                        "name": "Kt.Academy",
+                        "link": "http://kt.academy",
+                        "logo_url" : partnersImgBaseUrl + 'ktacademy-square.png'
                     }
                 ],
                 media : [

@@ -661,7 +661,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   padding: 0 15px;
   margin-top: 10px;
   margin-bottom: 10px;
-  line-height: 40px;
+  /* line-height: 40px; */
   text-transform: uppercase;
   background: transparent;
   -webkit-transition: all 0.3s ease-in-out;
@@ -2426,12 +2426,12 @@ a:hover {
   background-size: cover;
 }
 
-.workshop-description ul {
+.workshop-description ul, .talk-description ul {
   margin-top: 8px;
   margin-bottom: 8px;
   margin-left: 20px;
 }
 
-.workshop-description ul li {
+.workshop-description ul li, .talk-description ul li {
   list-style: square;
 }

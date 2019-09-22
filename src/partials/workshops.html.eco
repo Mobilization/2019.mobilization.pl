@@ -23,8 +23,8 @@
                             </a>
                         </div>
                         <% end %>
-			</div>			
-				<div class="col-12 col-sm-12 col-md-8 center">
+			</div>
+				<div class="col-12 col-sm-12 col-md-8 center workshop-description">
 					<%- workshop.description_html %>
 				</div>
 		</div>

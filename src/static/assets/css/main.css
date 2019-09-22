@@ -2378,18 +2378,19 @@ a.back-to-top:hover, a.back-to-top:focus {
 .modal-dialog .bio {
   text-align: left;
 }
+
 .talk {
   margin-top: 50px;
 }
 
-.ts-talks .speaker-name, .schedule-slot-time .speaker-name {
+#ts-talks .speaker-name, #ts-workshops .speaker-name, .schedule-slot-time .speaker-name {
   float: left;
   margin-left: 8px;
   font-weight: bold;
   padding-top: 10px;
 }
 
-.ts-talks .speaker-talk {
+#ts-talks .speaker-talk {
   padding-top: 15px;
   font-size: 16px;
 }
@@ -2423,4 +2424,14 @@ a:hover {
   height: 20px;
   border-radius: 10px;
   background-size: cover;
+}
+
+.workshop-description ul {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 20px;
+}
+
+.workshop-description ul li {
+  list-style: square;
 }

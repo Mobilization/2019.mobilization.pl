@@ -661,7 +661,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   padding: 0 15px;
   margin-top: 10px;
   margin-bottom: 10px;
-  line-height: 40px;
+  /* line-height: 40px; */
   text-transform: uppercase;
   background: transparent;
   -webkit-transition: all 0.3s ease-in-out;
@@ -1608,6 +1608,10 @@ a.back-to-top:hover, a.back-to-top:focus {
   transition: .3s all;
 }
 
+.contact-info {
+  margin-top: 30px;
+}
+
 .contact-item .contact-info h3 {
   color: rgb(30, 197, 15);
   font-size: 18px;
@@ -2374,18 +2378,19 @@ a.back-to-top:hover, a.back-to-top:focus {
 .modal-dialog .bio {
   text-align: left;
 }
+
 .talk {
   margin-top: 50px;
 }
 
-.ts-talks .speaker-name, .schedule-slot-time .speaker-name {
+#ts-talks .speaker-name, #ts-workshops .speaker-name, .schedule-slot-time .speaker-name {
   float: left;
   margin-left: 8px;
   font-weight: bold;
   padding-top: 10px;
 }
 
-.ts-talks .speaker-talk {
+#ts-talks .speaker-talk {
   padding-top: 15px;
   font-size: 16px;
 }
@@ -2419,4 +2424,14 @@ a:hover {
   height: 20px;
   border-radius: 10px;
   background-size: cover;
+}
+
+.workshop-description ul, .talk-description ul {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 20px;
+}
+
+.workshop-description ul li, .talk-description ul li {
+  list-style: square;
 }

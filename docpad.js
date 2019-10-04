@@ -105,9 +105,9 @@ docpadConfig = {
                     "link" : "https://www.cybercom.com/pl/Poland/"
                 },
                 {
-                    "name" : "Free",
-                    "logo_url" : sponsorsImgBaseUrl + "mobilization-free.png",
-                    "link" : "mailto:sponsors@mobilization.pl?subject=Mobilization IX sponsorship offer&body=Dear Mobilization, We are interested in sponsoring Mobilization IX. Please can you send a sponsorship offer for 2019"
+                    "name" : "Mobica",
+                    "logo_url" : sponsorsImgBaseUrl + "mobica-square.png",
+                    "link" : "https://www.mobica.com"
                 },
                 {
                     "name" : "Free",

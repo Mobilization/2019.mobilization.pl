@@ -1009,16 +1009,16 @@ docpadConfig = {
                         "talk_key":"talk-architecting_android_and_ios_app_features_for_2020"
                     },
                     "venue-allegro" : {
-                        "talk_key":"talk-xcode_project_generation"
+                        "talk_key":"talk-make_some_move_with_motionlayout"
                     },
                     "venue-harman" : {
                         "talk_key":"talk-functional_magic_in_swift"
                     },
                     "venue-idemia" : {
-                        "talk_key":"talk-make_some_move_with_motionlayout"
+                        "talk_key":"talk-kotlin_native_and_multiplatform_development"
                     },
                     "venue-intive" : {
-                        "talk_key":"talk-kotlin_native_and_multiplatform_development"
+                        "talk_key":"talk-xcode_project_generation"
                     }
                 },
                 "slot-coffee-5": {"break_key": "break-coffee"},

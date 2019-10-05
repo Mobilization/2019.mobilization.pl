@@ -1024,19 +1024,19 @@ docpadConfig = {
                 "slot-coffee-5": {"break_key": "break-coffee"},
                 "slot-6": {
                     "venue-epassi" : {
-                        "talk_key":"talk-tbd"
+                        "talk_key":"talk-kotlin-not-to-do-list"
                     },
                     "venue-allegro" : {
-                        "talk_key":"talk-tbd"
+                        "talk_key":"talk-how_i_moved_a_large_production_app_to_navigation_component"
                     },
                     "venue-harman" : {
-                        "talk_key":"talk-tbd"
+                        "talk_key":"talk-mobile_visual_testing_with_vizzy"
                     },
                     "venue-idemia" : {
-                        "talk_key":"talk-tbd"
+                        "talk_key":"talk-iap_subscriptions_-_lessons_learned"
                     },
                     "venue-intive" : {
-                        "talk_key":"talk-tbd"
+                        "talk_key":"talk-2_years_of_flutter_-_retrospection"
                     }
                 },
                 "slot-no-coffee-6": {"break_key": "break-coffee"},

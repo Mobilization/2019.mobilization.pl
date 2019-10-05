@@ -312,27 +312,27 @@ docpadConfig = {
                 },
                 'slot-coffee-4': {
                     from: '14:45',
-                    to: '15:05'
+                    to: '15:00'
                 },
                 'slot-5': {
-                    from: '15:05',
-                    to: '15:50'
+                    from: '15:00',
+                    to: '15:45'
                 },
                 'slot-coffee-5': {
-                    from: '15:50',
-                    to: '16:10'
+                    from: '15:45',
+                    to: '16:00'
                 },
                 'slot-6': {
-                    from: '16:10',
-                    to: '16:55'
+                    from: '16:00',
+                    to: '16:45'
                 },
                 'slot-no-coffee-6': {
-                    from: '16:55',
-                    to: '17:00'
+                    from: '16:45',
+                    to: '16:50'
                 },
                 'slot-finally': {
-                    from: '17:00',
-                    to: '17:15'
+                    from: '16:50',
+                    to: '17:05'
                 },
                 'slot-afterparty': {
                     from: '18:00',
@@ -955,7 +955,7 @@ docpadConfig = {
                         "talk_key":"talk-android_mvi_with_jetpack_compose"
                     },
                     "venue-allegro" : {
-                        "talk_key":"talk-structured_unit_testing_with_spek"
+                        "talk_key":"talk-two_perspectives_on_ios_accessibility"
                     },
                     "venue-harman" : {
                         "talk_key":"talk-mvvm_as_good_antipattern_in_ios"
@@ -964,7 +964,7 @@ docpadConfig = {
                         "talk_key":"talk-how_to_build_a_messenger_for_android"
                     },
                     "venue-intive" : {
-                        "talk_key":"talk-two_perspectives_on_ios_accessibility"
+                        "talk_key":"talk-structured_unit_testing_with_spek"
                     }
                 },
                 "slot-coffee-2": {"break_key": "break-coffee"},
@@ -991,7 +991,7 @@ docpadConfig = {
                         "talk_key":"talk-tips_tricks_for_daily_ui_development"
                     },
                     "venue-allegro" : {
-                        "talk_key":"talk-how_to_test_on_you_flutter_app"
+                        "talk_key":"talk-kooking_with_koroutine_recipes"
                     },
                     "venue-harman" : {
                         "talk_key":"talk-how_to_start_to_writing_autotests_and_not_go_crazy"
@@ -1000,7 +1000,7 @@ docpadConfig = {
                         "talk_key":"talk-invest-in-test"
                     },
                     "venue-intive" : {
-                        "talk_key":"talk-kooking_with_koroutine_recipes"
+                        "talk_key":"talk-how_to_test_on_you_flutter_app"
                     }
                 },
                 "slot-coffee-4": {"break_key": "break-coffee"},
@@ -1027,7 +1027,7 @@ docpadConfig = {
                         "talk_key":"talk-kotlin-not-to-do-list"
                     },
                     "venue-allegro" : {
-                        "talk_key":"talk-how_i_moved_a_large_production_app_to_navigation_component"
+                        "talk_key":"talk-2_years_of_flutter_-_retrospection"
                     },
                     "venue-harman" : {
                         "talk_key":"talk-mobile_visual_testing_with_vizzy"
@@ -1036,7 +1036,7 @@ docpadConfig = {
                         "talk_key":"talk-iap_subscriptions_-_lessons_learned"
                     },
                     "venue-intive" : {
-                        "talk_key":"talk-2_years_of_flutter_-_retrospection"
+                        "talk_key":"talk-how_i_moved_a_large_production_app_to_navigation_component"
                     }
                 },
                 "slot-no-coffee-6": {"break_key": "break-coffee"},

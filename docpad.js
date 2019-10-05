@@ -271,87 +271,71 @@ docpadConfig = {
             },
             slots: {
                 'slot-registration': {
-                    from: '8:00',
-                    to: '9:00'
+                    from: '8:30',
+                    to: '9:30'
                 },
                 'slot-hello-world': {
-                    from: '9:00',
-                    to: '9:10'
+                    from: '9:30',
+                    to: '9:40'
                 },
                 'slot-no-coffee-0': {
-                    from: '9:10',
-                    to: '9:15'
+                    from: '9:40',
+                    to: '9:45'
                 },
                 'slot-1': {
-                    from: '9:15',
-                    to: '10:00'
+                    from: '9:45',
+                    to: '10:30'
                 },
                 'slot-coffee-1': {
-                    from: '10:00',
-                    to: '10:15'
+                    from: '10:30',
+                    to: '10:50'
                 },
                 'slot-2': {
-                    from: '10:15',
-                    to: '11:00'
+                    from: '10:50',
+                    to: '11:35'
                 },
                 'slot-coffee-2': {
-                    from: '11:00',
-                    to: '11:15'
+                    from: '11:35',
+                    to: '11:55'
                 },
                 'slot-3': {
-                    from: '11:15',
-                    to: '12:00'
+                    from: '11:55',
+                    to: '12:40'
                 },
                 'slot-lunch': {
-                    from: '12:00',
-                    to: '13:00'
-                },
-                'slot-4': {
-                    from: '13:00',
-                    to: '13:45'
-                },
-                'slot-coffee-4': {
-                    from: '13:45',
+                    from: '12:40',
                     to: '14:00'
                 },
-                'slot-5': {
+                'slot-4': {
                     from: '14:00',
                     to: '14:45'
                 },
-                'slot-coffee-5': {
+                'slot-coffee-4': {
                     from: '14:45',
                     to: '15:00'
                 },
-                'slot-6': {
+                'slot-5': {
                     from: '15:00',
                     to: '15:45'
                 },
-                'slot-coffee-6': {
+                'slot-coffee-5': {
                     from: '15:45',
                     to: '16:00'
                 },
-                'slot-7': {
+                'slot-6': {
                     from: '16:00',
                     to: '16:45'
                 },
-                'slot-coffee-7': {
+                'slot-no-coffee-6': {
                     from: '16:45',
-                    to: '17:00'
-                },
-                'slot-8': {
-                    from: '17:00',
-                    to: '17:45'
-                },
-                'slot-no-coffee-8': {
-                    from: '17:45',
-                    to: '17:50'
+                    to: '16:50'
                 },
                 'slot-finally': {
-                    from: '17:50',
-                    to: '18:10'
+                    from: '16:50',
+                    to: '17:00'
                 },
                 'slot-afterparty': {
-                    from: '18:30',
+                    from: '18:00',
                     to: '23:59'
                 },
             },
@@ -919,8 +903,8 @@ docpadConfig = {
                 //     description_html: 'Time to give thanks to all the sponsors and the organizer\'s team.'
                 // },
                 'break-afterparty': {
-                    title: 'AfterParty in Browar Księży Młyn',
-                    description_html: 'Free pizza and beer and follow up talks.<br>30min from the conference venue.<br>ul. Tymienieckiego 22/24, Łódź'
+                    title: 'AfterParty in Odlewnia',
+                    description_html: 'Free pizza and beer and follow up talks.<br>15min from the conference venue.<br>ul. Piotrkowska 217, Łódź'
                 }
             },
             venues: {
@@ -1055,43 +1039,7 @@ docpadConfig = {
                         "talk_key":"talk-tbd"
                     }
                 },
-                "slot-coffee-6": {"break_key": "break-coffee"},
-                "slot-7": {
-                    "venue-epassi" : {
-                        "talk_key":"talk-tbd"
-                    },
-                    "venue-allegro" : {
-                        "talk_key":"talk-tbd"
-                    },
-                    "venue-harman" : {
-                        "talk_key":"talk-tbd"
-                    },
-                    "venue-idemia" : {
-                        "talk_key":"talk-tbd"
-                    },
-                    "venue-intive" : {
-                        "talk_key":"talk-tbd"
-                    }
-                },
-                "slot-coffee-7": {"break_key": "break-coffee"},
-                "slot-8": {
-                    "venue-epassi" : {
-                        "talk_key":"talk-tbd"
-                    },
-                    "venue-allegro" : {
-                        "talk_key":"talk-tbd"
-                    },
-                    "venue-harman" : {
-                        "talk_key":"talk-tbd"
-                    },
-                    "venue-idemia" : {
-                        "talk_key":"talk-tbd"
-                    },
-                    "venue-intive" : {
-                        "talk_key":"talk-tbd"
-                    }
-                },
-                "slot-no-coffee-8": {"break_key": "break-no-coffee"},
+                "slot-no-coffee-6": {"break_key": "break-coffee"},
                 "slot-finally": {
                     "venue-epassi": {
                         "talk_key":"talk-tbd"

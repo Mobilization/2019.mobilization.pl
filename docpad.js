@@ -952,37 +952,37 @@ docpadConfig = {
                 "slot-coffee-1": {"break_key": "break-coffee"},
                 "slot-2": {
                     "venue-epassi" : {
-                        "talk_key":"talk-tbd"
+                        "talk_key":"talk-android_mvi_with_jetpack_compose"
                     },
                     "venue-allegro" : {
-                        "talk_key":"talk-tbd"
+                        "talk_key":"talk-structured_unit_testing_with_spek"
                     },
                     "venue-harman" : {
-                        "talk_key":"talk-tbd"
+                        "talk_key":"talk-mvvm_as_good_antipattern_in_ios"
                     },
                     "venue-idemia" : {
-                        "talk_key":"talk-tbd"
+                        "talk_key":"talk-how_to_build_a_messenger_for_android"
                     },
                     "venue-intive" : {
-                        "talk_key":"talk-tbd"
+                        "talk_key":"talk-two_perspectives_on_ios_accessibility"
                     }
                 },
                 "slot-coffee-2": {"break_key": "break-coffee"},
                 "slot-3": {
                     "venue-epassi" : {
-                        "talk_key":"talk-tbd"
+                        "talk_key":"talk-building_a_ci_cd_pipeline_for_your_mobile_app"
                     },
                     "venue-allegro" : {
-                        "talk_key":"talk-tbd"
+                        "talk_key":"talk-jump-starting_with_swift_ui"
                     },
                     "venue-harman" : {
-                        "talk_key":"talk-tbd"
+                        "talk_key":"talk-voyager_di_and_navigation_for_flutter"
                     },
                     "venue-idemia" : {
-                        "talk_key":"talk-tbd"
+                        "talk_key":"talk-coroutines_vs_reactivex_handling_errors",
                     },
                     "venue-intive" : {
-                        "talk_key":"talk-tbd"
+                        "talk_key":"talk-core_data_alive_and_kicking"
                     }
                 },
                 "slot-lunch": {"break_key": "break-lunch"},

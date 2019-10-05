@@ -271,39 +271,39 @@ docpadConfig = {
             },
             slots: {
                 'slot-registration': {
-                    from: '8:30',
-                    to: '9:30'
-                },
-                'slot-hello-world': {
-                    from: '9:30',
+                    from: '9:00',
                     to: '9:45'
                 },
-                'slot-no-coffee-0': {
+                'slot-hello-world': {
                     from: '9:45',
-                    to: '9:50'
+                    to: '10:00'
+                },
+                'slot-no-coffee-0': {
+                    from: '10:00',
+                    to: '10:05'
                 },
                 'slot-1': {
-                    from: '9:50',
-                    to: '10:35'
+                    from: '10:05',
+                    to: '10:50'
                 },
                 'slot-coffee-1': {
-                    from: '10:35',
-                    to: '10:55'
+                    from: '10:50',
+                    to: '11:10'
                 },
                 'slot-2': {
-                    from: '10:55',
-                    to: '11:40'
+                    from: '11:10',
+                    to: '11:55'
                 },
                 'slot-coffee-2': {
-                    from: '11:40',
-                    to: '12:00'
+                    from: '11:55',
+                    to: '12:15'
                 },
                 'slot-3': {
-                    from: '12:00',
-                    to: '12:45'
+                    from: '12:15',
+                    to: '13:00'
                 },
                 'slot-lunch': {
-                    from: '12:45',
+                    from: '13:00',
                     to: '14:00'
                 },
                 'slot-4': {

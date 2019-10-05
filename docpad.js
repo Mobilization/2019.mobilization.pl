@@ -729,7 +729,7 @@ docpadConfig = {
                     "language": "EN",
                     "audience_level" : "Intermediate"
                 },
-                "talk-kotlin_native_and_multiplatform_development_": {//21
+                "talk-kotlin_native_and_multiplatform_development": {//21
                     "title": "Kotlin/Native and Multiplatform Development ",
                     "description_html": "This workshop will introduced you to Kotlin/Native and build a Kotlin Multiplatform app that runs on both iOS and Android using shared Kotlin code. We will cover following topics in this workshop Introduction to Kotlin/Native and Multiplatform Your First Kotlin/Native Program Creating a Multiplatform Project Shared Library from Android & iOS Networking & Concurrency using Ktor & Coroutines Designing Android & iOS user interface Debugging multiplatform Project Drawbacks",
                     "speakers_keys": ['speaker-vipul-shah'],
@@ -1006,19 +1006,19 @@ docpadConfig = {
                 "slot-coffee-4": {"break_key": "break-coffee"},
                 "slot-5": {
                     "venue-epassi" : {
-                        "talk_key":"talk-tbd"
+                        "talk_key":"talk-architecting_android_and_ios_app_features_for_2020"
                     },
                     "venue-allegro" : {
-                        "talk_key":"talk-tbd"
+                        "talk_key":"talk-xcode_project_generation"
                     },
                     "venue-harman" : {
-                        "talk_key":"talk-tbd"
+                        "talk_key":"talk-functional_magic_in_swift"
                     },
                     "venue-idemia" : {
-                        "talk_key":"talk-tbd"
+                        "talk_key":"talk-make_some_move_with_motionlayout"
                     },
                     "venue-intive" : {
-                        "talk_key":"talk-tbd"
+                        "talk_key":"talk-kotlin_native_and_multiplatform_development"
                     }
                 },
                 "slot-coffee-5": {"break_key": "break-coffee"},

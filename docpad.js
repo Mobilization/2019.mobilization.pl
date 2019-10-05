@@ -946,7 +946,7 @@ docpadConfig = {
                         "talk_key":"talk-tbd"
                     },
                     "venue-intive" : {
-                        "talk_key":"talk-tbd"
+                        "talk_key":"talk-how_to_talk_to_computers"
                     }
                 },
                 "slot-coffee-1": {"break_key": "break-coffee"},

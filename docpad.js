@@ -272,38 +272,38 @@ docpadConfig = {
             slots: {
                 'slot-registration': {
                     from: '9:00',
-                    to: '9:45'
+                    to: '9:40'
                 },
                 'slot-hello-world': {
-                    from: '9:45',
-                    to: '10:00'
+                    from: '9:40',
+                    to: '09:55'
                 },
                 'slot-no-coffee-0': {
-                    from: '10:00',
-                    to: '10:05'
+                    from: '09:55',
+                    to: '10:00'
                 },
                 'slot-1': {
-                    from: '10:05',
-                    to: '10:50'
+                    from: '10:00',
+                    to: '10:45'
                 },
                 'slot-coffee-1': {
-                    from: '10:50',
-                    to: '11:10'
+                    from: '10:45',
+                    to: '11:05'
                 },
                 'slot-2': {
-                    from: '11:10',
-                    to: '11:55'
+                    from: '11:05',
+                    to: '11:50'
                 },
                 'slot-coffee-2': {
-                    from: '11:55',
-                    to: '12:15'
+                    from: '11:50',
+                    to: '12:10'
                 },
                 'slot-3': {
-                    from: '12:15',
-                    to: '13:00'
+                    from: '12:10',
+                    to: '12:55'
                 },
                 'slot-lunch': {
-                    from: '13:00',
+                    from: '12:55',
                     to: '14:00'
                 },
                 'slot-4': {
@@ -1039,10 +1039,10 @@ docpadConfig = {
                         "talk_key":"talk-how_i_moved_a_large_production_app_to_navigation_component"
                     }
                 },
-                "slot-no-coffee-6": {"break_key": "break-coffee"},
+                "slot-no-coffee-6": {"break_key": "break-no-coffee"},
                 "slot-finally": {
                     "venue-epassi": {
-                        "talk_key":"talk-tbd"
+                        "talk_key":"talk-finally"
                     },
                 },
                 "slot-afterparty": {"break_key": "break-afterparty"}

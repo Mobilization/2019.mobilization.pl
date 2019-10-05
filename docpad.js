@@ -988,19 +988,19 @@ docpadConfig = {
                 "slot-lunch": {"break_key": "break-lunch"},
                 "slot-4": {
                     "venue-epassi" : {
-                        "talk_key":"talk-tbd"
+                        "talk_key":"talk-tips_tricks_for_daily_ui_development"
                     },
                     "venue-allegro" : {
-                        "talk_key":"talk-tbd"
+                        "talk_key":"talk-how_to_test_on_you_flutter_app"
                     },
                     "venue-harman" : {
-                        "talk_key":"talk-tbd"
+                        "talk_key":"talk-how_to_start_to_writing_autotests_and_not_go_crazy"
                     },
                     "venue-idemia" : {
-                        "talk_key":"talk-tbd"
+                        "talk_key":"talk-invest-in-test"
                     },
                     "venue-intive" : {
-                        "talk_key":"talk-tbd"
+                        "talk_key":"talk-kooking_with_koroutine_recipes"
                     }
                 },
                 "slot-coffee-4": {"break_key": "break-coffee"},

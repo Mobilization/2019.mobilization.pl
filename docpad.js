@@ -276,34 +276,34 @@ docpadConfig = {
                 },
                 'slot-hello-world': {
                     from: '9:30',
-                    to: '9:40'
-                },
-                'slot-no-coffee-0': {
-                    from: '9:40',
                     to: '9:45'
                 },
-                'slot-1': {
+                'slot-no-coffee-0': {
                     from: '9:45',
-                    to: '10:30'
+                    to: '9:50'
+                },
+                'slot-1': {
+                    from: '9:50',
+                    to: '10:35'
                 },
                 'slot-coffee-1': {
-                    from: '10:30',
-                    to: '10:50'
+                    from: '10:35',
+                    to: '10:55'
                 },
                 'slot-2': {
-                    from: '10:50',
-                    to: '11:35'
+                    from: '10:55',
+                    to: '11:40'
                 },
                 'slot-coffee-2': {
-                    from: '11:35',
-                    to: '11:55'
+                    from: '11:40',
+                    to: '12:00'
                 },
                 'slot-3': {
-                    from: '11:55',
-                    to: '12:40'
+                    from: '12:00',
+                    to: '12:45'
                 },
                 'slot-lunch': {
-                    from: '12:40',
+                    from: '12:45',
                     to: '14:00'
                 },
                 'slot-4': {
@@ -312,27 +312,27 @@ docpadConfig = {
                 },
                 'slot-coffee-4': {
                     from: '14:45',
-                    to: '15:00'
+                    to: '15:05'
                 },
                 'slot-5': {
-                    from: '15:00',
-                    to: '15:45'
+                    from: '15:05',
+                    to: '15:50'
                 },
                 'slot-coffee-5': {
-                    from: '15:45',
-                    to: '16:00'
+                    from: '15:50',
+                    to: '16:10'
                 },
                 'slot-6': {
-                    from: '16:00',
-                    to: '16:45'
+                    from: '16:10',
+                    to: '16:55'
                 },
                 'slot-no-coffee-6': {
-                    from: '16:45',
-                    to: '16:50'
+                    from: '16:55',
+                    to: '17:00'
                 },
                 'slot-finally': {
-                    from: '16:50',
-                    to: '17:00'
+                    from: '17:00',
+                    to: '17:15'
                 },
                 'slot-afterparty': {
                     from: '18:00',
@@ -928,7 +928,7 @@ docpadConfig = {
                 "slot-registration": {"break_key": "break-registration"},
                 "slot-hello-world": {
                     "venue-epassi": {
-                        "talk_key":"talk-tbd"
+                        "talk_key":"talk-hello-world"
                     }
                 },
                 "slot-no-coffee-0": {"break_key": "break-no-coffee"},

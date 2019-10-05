@@ -701,7 +701,7 @@ docpadConfig = {
                     "language": "EN",
                     "audience_level" : "Intermediate"
                 },
-                "talk-mvvm_as_good_(anti)pattern_in_ios": {//12
+                "talk-mvvm_as_good_antipattern_in_ios": {//12
                     "title": "MVVM as good (anti)pattern in iOS",
                     "description_html": "Nowadays there are a lot of materials, presentations & talks about how great MVVM architecture is. Hype about the view models look like a never ending story. There are a lot of developers who like this approach and use it in their own projects. I tried to go against the grain and show a different perspective of MVVM. I also try to answer questions like: Do we really need it? Does it solves any particular problem or is it overkill?.",
                     "speakers_keys": ['speaker-mateusz-szklarek'],
@@ -757,11 +757,11 @@ docpadConfig = {
                     "language": "EN",
                     "audience_level" : "Intermediate"
                 },
-                "talk-how_to_build_a_messenger_for_android?": {//37
+                "talk-how_to_build_a_messenger_for_android": {//37
                     "title": "How to build a messenger for Android?",
                     "description_html": "It looks so simple outside, the app which can send messages from one user and receive from others. This is what we were thinking from start. 9 months passed we're still on it. In this talk, I will go through the main parts of the messenger project such as transport, synchronization, architecture, storage, pagination as well as explain common mistakes we've made on the way to instant messenger. <br>You’ll leave this talk with a solid understanding of how modern messengers are built and the confidence to get started.",
                     "speakers_keys": ['speaker-andrii-rakhimov'],
-                    "language": "It looks so simple outside, the app which can send messages from one user and receive from others. This is what we were thinking from start. 9 months passed we're still on it. In this talk, I will go through the main parts of the messenger project such as transport, synchronization, architecture, storage, pagination as well as explain common mistakes we've made on the way to instant messenger. You’ll leave this talk with a solid understanding of how modern messengers are built and the confidence to get started.",
+                    "language": "EN",
                     "audience_level" : "Intermediate"
                 },
                 "talk-functional_magic_in_swift": {//44
@@ -937,7 +937,7 @@ docpadConfig = {
                         "talk_key":"talk-tbd"
                     },
                     "venue-allegro" : {
-                        "talk_key":"talk-tbd"
+                        "talk_key":"talk-breaking-the-monolith"
                     },
                     "venue-harman" : {
                         "talk_key":"talk-tbd"

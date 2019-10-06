@@ -244,6 +244,17 @@ docpadConfig = {
                         "name": "Kt.Academy",
                         "link": "http://kt.academy",
                         "logo_url" : partnersImgBaseUrl + 'ktacademy-square.png'
+                    },
+                    {
+                        "name": "Flutter Europe",
+                        "link": "https://fluttereurope.dev",
+                        "logo_url" : partnersImgBaseUrl + 'flutter-europe-square.png'
+                    }
+                    ,
+                    {
+                        "name": "IT Łódź",
+                        "link": "http://tiny.cc/itlodz",
+                        "logo_url" : partnersImgBaseUrl + 'itlodz-square.png'
                     }
                 ],
                 media : [

@@ -27,23 +27,18 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/code-of-conduct.html#code-of-conduct">
-                Code of conduct
-              </a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="/#ts-speakers">
                 Speakers
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/#ts-talks">
-                Talks
-              </a>
-            </li>
-             <li class="nav-item">
               <a class="nav-link" href="/#ts-workshops">
                 Workshops
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/#ts-schedule">
+                Agenda
               </a>
             </li>
             <li class="nav-item">
@@ -51,10 +46,14 @@
                 Tickets
               </a>
             </li>
-
             <li class="nav-item">
               <a class="nav-link" href="/#contact">
                 Contact
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/code-of-conduct.html#code-of-conduct">
+                Code of conduct
               </a>
             </li>
           </ul>
@@ -70,22 +69,22 @@
           <a class="page-scrool" href="/#sponsors">Sponsors</a>
         </li>
         <li>
-          <a class="page-scrool" href="/code-of-conduct.html">Code of Conduct</a>
-        </li>
-        <li>
           <a class="page-scrool" href="/#ts-speakers">Speakers</a>
         </li>
         <li>
-          <a class="page-scrool" href="/#ts-talks">Talks</a>
+          <a class="page-scrool" href="/#ts-workshops">Workshops</a>
         </li>
         <li>
-          <a class="page-scrool" href="/#ts-workshops">Workshops</a>
+          <a class="page-scrool" href="/#ts-schedule">Agenda</a>
         </li>
         <li>
           <a class="page-scrool" href="https://bit.ly/mobilization9-register-web">Tickets</a>
         </li>
         <li>
           <a class="page-scroll" href="/#contact">Contact</a>
+        </li>
+        <li>
+          <a class="page-scrool" href="/code-of-conduct.html">Code of Conduct</a>
         </li>
       </ul>
       <!-- Mobile Menu End -->

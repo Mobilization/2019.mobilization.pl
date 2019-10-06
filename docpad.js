@@ -882,7 +882,7 @@ docpadConfig = {
                     "language": "EN",
                     "audience_level" : "Intermediate"
                 },
-                "talk-xcode_project_generation": {//92
+                "talk-android-auto": {//92
                     "title": "Android Auto - How to build a custom app and not distract users",
                     "description_html": "During this talk, we will check the latest changes in the Android Auto interface and functionalities. We will build the application guiding driver through the food festival and make it work as a standalone application on the head unit running Android Automotive OS.",
                     "speakers_keys": ['speaker-jacek-rondio'],
@@ -953,7 +953,7 @@ docpadConfig = {
                         "talk_key":"talk-breaking-the-monolith"
                     },
                     "venue-harman" : {
-                        "talk_key":"talk-tbd"
+                        "talk_key":"talk-android-auto"
                     },
                     "venue-idemia" : {
                         "talk_key":"talk-tbd"

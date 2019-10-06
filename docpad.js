@@ -659,6 +659,12 @@ docpadConfig = {
                     "github": "https://github.com/kwridan",
                     "photo_url": speakersImgBaseUrl + "kassem-wridan.png"
                 },
+                "speaker-jacek-rondio": {//92
+                    "firstname": "Jacek",
+                    "lastname": "Rondio",
+                    "bio_html": "A software engineer currently working at HARMAN Connected Services mainly focused on Android applications development, however not afraid of deeper layers of the system. Passionate about mobile and technology as well as understanding his 2 y.o. son",
+                    "photo_url": speakersImgBaseUrl + "jacek-rondio.png",
+                },
             },
             talks: {
                 "talk-tbd": {
@@ -875,6 +881,13 @@ docpadConfig = {
                     "speakers_keys": ['speaker-kassem-wridan'],
                     "language": "EN",
                     "audience_level" : "Intermediate"
+                },
+                "talk-xcode_project_generation": {//92
+                    "title": "Android Auto - How to build a custom app and not distract users",
+                    "description_html": "During this talk, we will check the latest changes in the Android Auto interface and functionalities. We will build the application guiding driver through the food festival and make it work as a standalone application on the head unit running Android Automotive OS.",
+                    "speakers_keys": ['speaker-jacek-rondio'],
+                    "language": "EN",
+                    "audience_level" : "Beginner"
                 },
             },
             breaks: {

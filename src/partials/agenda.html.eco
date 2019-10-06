@@ -1,133 +1,155 @@
 <!--AGENDA-->
-<section id="ts-schedule" class="ts-schedule">
+<section id="ts-schedule" class="ts-schedule schedule section-padding">
     <div class="container">
-        <div class="row text-center">
-            <h2 class="section-title">Don't Miss a Thing</h2>
-            <h3 class="section-sub-title">Event Programme</h3>
-        </div>
         <div class="row">
-            <div class="col-md-12">
-                <h2 class="schedule-date">Saturday, 20th October</h2>
+        	<div class="col-12">
+          		<div class="section-title-header text-center">
+					<h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">
+						Agenda
+					</h1>
+         		</div>
+			</div>
+        </div>
+        <div class="schedule-area row wow fadeInDown" data-wow-delay="0.3s">
+            <div class="schedule-tab-title col-md-12 col-lg-12 col-xs-12">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item col-xs-6 col-sm-6 col-md-4 col-lg-2">
+                    <a class="nav-link active" id="venue-all-tab" data-toggle="tab" href="#menu-all-talks" role="tab" aria-controls="menu-all-talks" aria-expanded="true">
+                        <div class="item-text">
+                        <h4>ALL</h4>
+                        </div>
+                    </a>
+                    </li>
+                    <% for venue_key, venue of @site.venues: %>
+                    <li class="nav-item col-xs-6 col-sm-6 col-md-4 col-lg-2">
+                    <a class="nav-link" id="menu-selector-<%= venue_key %>" data-toggle="tab" href="#menu-<%= venue_key %>" role="tab" aria-controls="menu-<%= venue_key %>">
+                        <div class="item-text">
+                        <h4><%= venue.title %></h4>
+                        </div>
+                    </a>
+                    </li>
+                    <% end %>
+                </ul>
+            </div>
+        </div>
+    </div>
 
-                <div class="schedule-tab">
-                    <ul class="nav nav-tabs" id="nav-tabs">
-                        <li>
-                            <a class="animated fadeIn nav-tabs-link" href="#menu-all-talks" data-toggle="tab">
-                                <span class="tab-head">
-                                    <span class="tab-text-title">// ALL TALKS</span>
-                                </span>
-                            </a>
-                        </li>
-                        <% for venue_key, venue of @site.venues: %>
-                            <li id="menu-selector-<%= venue_key %>">
-                                <a class="animated fadeIn nav-tabs-link" href="#menu-<%= venue_key %>" data-toggle="tab">
-                                    <span class="tab-head">
-                                        <span class="tab-text-title"><%= venue.title %></span>
-                                    </span>
-                                </a>
-                            </li>
-                        <% end %>
-                    </ul>
-                    <div class="tab-content">
-                        <div class="tab-pane animated fadeInRight" id="menu-all-talks">
-                            <table>
-                                <tr>
-                                    <td class="first"></td>
+    <div class="container">
+        <div class="schedule-tab-content clearfix">
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="menu-all-talks">
+                    <table>
+                        <tr>
+                            <td class="first"></td>
+                            <% for venue_key, venue of @site.venues: %>
+                                <td class="header">
+                                    <h3><%- venue.title %></h3>
+                                </td>
+                            <% end %>
+                        </tr>
+                        <% for slot_key, slot of @site.schedule: %>
+                            <% i = 0 %>
+                            <tr>
+                                <% if 'break_key' of slot: %>
+                                <td class="first special"><h4><%= @site.slots[slot_key].from %></h4></td>
+                                <td colspan="<%- Object.keys(@site.venues).length %>" style="text-align: center" class="special">
+                                    <strong><%= @site.breaks[slot.break_key].title %></strong>
+                                </td>
+                                <% else: %>
+                                    <td class="first">
+                                        <h4><%= @site.slots[slot_key].from %></h4>
+                                    </td>
                                     <% for venue_key, venue of @site.venues: %>
-                                        <td class="header">
-                                            <h3><%- venue.title %></h3>
+                                        <td class="std presentation <% if i++ % 2 == 0: %>odd<% else: %>even<% end %>">
+                                            <% if venue_key of slot: %>
+                                                <p>
+                                                    <a style="cursor: pointer" onclick="window.location=('#<%= slot[venue_key].talk_key %>')" data-dismiss="modal"><strong><%- @site.talks[slot[venue_key].talk_key].title %></strong></a>
+                                                    <% if 'language' of @site.talks[slot[venue_key].talk_key]: %>
+                                                        <small>(<%- @site.talks[slot[venue_key].talk_key].language %><% if 'audience_level' of @site.talks[slot[venue_key].talk_key]: %>,&nbsp;<%- @site.talks[slot[venue_key].talk_key].audience_level %>)<% end %></small>
+                                                    <% end %>
+                                                </p>
+                                                <% speakers = new Array() %>
+                                                <% for speaker_key in @site.talks[slot[venue_key].talk_key].speakers_keys: %>
+                                                    <% speakers.push('<a data-toggle="modal" href="#speaker-more-info-' + speaker_key + '">' + @site.speakers[speaker_key].firstname + ' ' + @site.speakers[speaker_key].lastname + '</a>') %>
+                                                <% end %>
+                                                <%- speakers.join(', ') %>
+                                            <% end %>
                                         </td>
                                     <% end %>
-                                </tr>
-                                <% for slot_key, slot of @site.schedule: %>
-                                    <% i = 0 %>
-                                    <tr>
-                                        <% if 'break_key' of slot: %>
-                                        <td class="first special"><h3><%= @site.slots[slot_key].from %></h3></td>
-                                        <td colspan="<%- Object.keys(@site.venues).length %>" style="text-align: center" class="special">
-                                            <strong><%= @site.breaks[slot.break_key].title %></strong>
-                                        </td>
-                                        <% else: %>
-                                            <td class="first">
-                                                <h3><%= @site.slots[slot_key].from %></h3>
-                                            </td>
-                                            <% for venue_key, venue of @site.venues: %>
-                                                <td class="std presentation <% if i++ % 2 == 0: %>odd<% else: %>even<% end %>">
-                                                    <% if venue_key of slot: %>
-                                                        <p>
-                                                            <a style="cursor: pointer" onclick="window.location=('#<%= slot[venue_key].talk_key %>')" data-dismiss="modal"><strong><%- @site.talks[slot[venue_key].talk_key].title %></strong></a>
-                                                            <% if 'language' of @site.talks[slot[venue_key].talk_key]: %>
-                                                                <small>(<%- @site.talks[slot[venue_key].talk_key].language %><% if 'audience_level' of @site.talks[slot[venue_key].talk_key]: %>,&nbsp;<%- @site.talks[slot[venue_key].talk_key].audience_level %>)<% end %></small>
-                                                            <% end %>
-                                                        </p>
-                                                        <% speakers = new Array() %>
-                                                        <% for speaker_key in @site.talks[slot[venue_key].talk_key].speakers_keys: %>
-                                                            <% speakers.push('<a data-toggle="modal" href="#speaker-more-info-' + speaker_key + '">' + @site.speakers[speaker_key].firstname + ' ' + @site.speakers[speaker_key].lastname + '</a>') %>
-                                                        <% end %>
-                                                        <%- speakers.join(', ') %>
-                                                    <% end %>
-                                                </td>
-                                            <% end %>
-                                        <% end %>
-                                    </tr>
                                 <% end %>
-                            </table>
-                        </div>
-                        <% for venue_key, venue of @site.venues: %>
-                        <div class="tab-pane animated fadeInRight" id="menu-<%= venue_key %>">
-                            <% for slot_key, slot of @site.schedule: %>
-                                <% i = 0 %>
-                                <% if 'break_key' of slot: %>
-                                    <% break_ = @site.breaks[slot.break_key] %>
-                                    <div class="schedule-listing bg">
-                                        <span class="schedule-slot-time"><%= @site.slots[slot_key].from %> - <%= @site.slots[slot_key].to %></span>
-                                        <div class="schedule-slot-info">
-                                            <div class="schedule-slot-info-content">
-                                                <h3 class="schedule-slot-title"><%= break_.title %></h3>
+                            </tr>
+                        <% end %>
+                    </table>
+                </div>
+                <% for venue_key, venue of @site.venues: %>
+                <div class="tab-pane" id="menu-<%= venue_key %>" role="tabpanel">
+                    <% for slot_key, slot of @site.schedule: %>
+                        <% i = 0 %>
+                        <% if 'break_key' of slot: %>
+                            <% break_ = @site.breaks[slot.break_key] %>
+                            <div class="card">
+                                <div class="card-header break">
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <% if slot.break_key == 'break-registration': %>
+                                            <i class="fa fa-user-check"></i>
+                                            <% end %>
+                                            <% if slot.break_key == 'break-coffee': %>
+                                            <i class="fa fa-coffee"></i>
+                                            <% end %>
+                                            <% if slot.break_key == 'break-lunch': %>
+                                            <i class="fa fa-utensils"></i>
+                                            <% end %>
+                                            <% if slot.break_key == 'break-afterparty': %>
+                                            <i class="fa fa-fire"></i>
+                                            <% end %>
+                                        </div>
+                                        <div class="col-10">
+                                            <span class="time"><%= @site.slots[slot_key].from %> - <%= @site.slots[slot_key].to %></span>
+                                            <p><%= break_.title %></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <% else: %>
+                            <% if venue_key of slot: %>
+                                <% _talk = @site.talks[slot[venue_key].talk_key] %>
+                                <% speakers = new Array() %>
+                                <% for speaker_key in _talk.speakers_keys: %>
+                                    <% speakers.push('<a data-toggle="modal" href="#speaker-more-info-' + speaker_key + '" class="link">' + @site.speakers[speaker_key].firstname + ' ' + @site.speakers[speaker_key].lastname + '</a>') %>
+                                <% end %>
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="row">
+                                            <div class="images-box col-2">
+                                            <% for speaker_key in _talk.speakers_keys: %>
+                                                <% _speaker = @site.speakers[speaker_key] %>
+                                                <a data-toggle="modal" href="#speaker-more-info-<%= speaker_key %>"><img class="img-fluid small-photo" src="<%= _speaker.photo_url %>" alt="<%= _speaker.firstname %><br/><%= _speaker.lastname %>'s photo" /></a>
+                                                <div class="clear">&nbsp;</div>
+                                            <% end %>
+                                            </div>
+                                            <div class="col-10">
+                                                <span class="time"><%= @site.slots[slot_key].from %></span>
+                                                <h4><%= _talk.title %></h4>
+                                                <div class="properties">
+                                                    <% for speaker_key in _talk.speakers_keys: %>
+                                                    <% _speaker = @site.speakers[speaker_key] %>
+                                                    <span><i class="fa fa-user"></i> <a data-toggle="modal" href="#speaker-more-info-<%= speaker_key %>"><%= _speaker.firstname %> <%= _speaker.lastname %></a></span>
+                                                    <% end %>
+                                                    <span class="space"><i class="fa fa-map-marker"></i> <%= venue.title %></span>
+                                                    <span class="space"><i class="fa fa-signal"></i> <%- _talk.audience_level %></span>
+                                                    <!-- <span class="space"><i class="fa fa-language"></i> <%- @getHtmlLangImg(_talk) %></span> -->
+                                                </div>
+                                                <div><%- _talk.description_html %></div>
                                             </div>
                                         </div>
                                     </div>
-                                <% else: %>
-                                    <% if venue_key of slot: %>
-                                        <% _talk = @site.talks[slot[venue_key].talk_key] %>
-                                        <% speakers = new Array() %>
-                                        <% for speaker_key in _talk.speakers_keys: %>
-                                            <% speakers.push('<a data-toggle="modal" href="#speaker-more-info-' + speaker_key + '" class="link">' + @site.speakers[speaker_key].firstname + ' ' + @site.speakers[speaker_key].lastname + '</a>') %>
-                                        <% end %>
-                                        <div class="schedule-listing" id="<%= slot[venue_key].talk_key %>">
-                                            <span class="schedule-slot-time"><%= @site.slots[slot_key].from %>
-                                                <% for speaker_key in _talk.speakers_keys: %>
-                                                <% _speaker = @site.speakers[speaker_key] %>
-                                                <div style="clear: both; margin-top: 10px;">
-                                                    <a data-toggle="modal" href="#speaker-more-info-<%= speaker_key %>" style="display:block;">
-                                                        <img src="<%= _speaker.photo_url %>" alt="" class="small-photo" style="float: left;" />
-                                                        <p class="speaker-name"><%= _speaker.firstname %><br/><%= _speaker.lastname %></p>
-                                                    </a>
-                                                </div>
-                                                <% end %>
-                                            </span>
-                                            <div class="schedule-slot-info">
-                                                <div class="schedule-slot-info-content">
-                                                    <h4 class="schedule-slot-title"><%= _talk.title %></h4>
-                                                    <div class="properties">
-                                                        <span><i class="fa fa-map-marker"></i> <%= venue.title %></span>
-                                                        <span><i class="fa fa-signal"></i> <%- _talk.audience_level %></span>
-                                                        <span><i class="fa fa-language"></i> <%- @getHtmlLangImg(_talk) %></span>
-                                                    </div>
-                                                    <p class="schedule-slot-desc"><%- _talk.description_html %></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    <% end %>
-                                <% end %>
+                                </div>
                             <% end %>
-                        </div>
                         <% end %>
-                    </div>
-                    <!-- tab content -->
-                    <!-- <div class="gap-60"></div>
-                    <div class="text-center"><a class="btn btn-primary" href="#"><i class="fa fa-file-pdf-o"></i> Download PDF</a></div> -->
+                    <% end %>
                 </div>
+                <% end %>
             </div>
         </div>
     </div>

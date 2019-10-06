@@ -2489,3 +2489,9 @@ section a:hover {
 td.header h3 {
   margin-top: 10px;
 }
+
+.ticket-btn {
+    border: 2px solid #20c997;
+    padding: 2px;
+    border-radius: 5px;
+}

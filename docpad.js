@@ -676,6 +676,12 @@ docpadConfig = {
                     "bio_html": "A software engineer currently working at HARMAN Connected Services mainly focused on Android applications development, however not afraid of deeper layers of the system. Passionate about mobile and technology as well as understanding his 2 y.o. son",
                     "photo_url": speakersImgBaseUrl + "jacek-rondio.png",
                 },
+                "speaker-xi-chen": {//93
+                    "firstname": "Xi",
+                    "lastname": "Chen",
+                    "bio_html": "I am a passionate software engineer, currently working in ePassi Oy. I have been working on android and iOS app development for six years, besides that I'm also very interested in backend development. I'm keen on better quality of software, in my spare time I work on my hobby projects as a software craftman.",
+                    "photo_url": speakersImgBaseUrl + "xi-chen.png",
+                },
             },
             talks: {
                 "talk-tbd": {
@@ -900,11 +906,18 @@ docpadConfig = {
                     "language": "EN",
                     "audience_level" : "Beginner"
                 },
+                "talk-evolving-mobile-app": {//93
+                    "title": "The evolving of our mobile app",
+                    "description_html": "It is probably common that a startup needs to quickly develop some thing to put to the market. But when the growth of the startup is beyond expectation, the scalability, maintainability of its product become issues. ePassi is not anymore a startup but we faced those issues. This story is about how we managed to re-think our app and managed to build an app fits the future needs of business growth. I will take about how we adapt ourselves to a multi-module design, how it works with dagger,  a further modularised architecture with the help of MVVM pattern and Kotlin coroutine. BTW, we are still on our way to make it better.",
+                    "speakers_keys": ['speaker-xi-chen'],
+                    "language": "EN",
+                    "audience_level" : "Beginner"
+                },
             },
             breaks: {
                 'break-registration': {
                     title: 'Registration',
-                    description_html: 'If you do not want to miss any presentation please register between 7:30-9:10. However, registration will be opened all day!'
+                    description_html: 'If you do not want to miss any presentation please register between 8:30-9:30. However, registration will be opened all day!'
                 },
                 // 'break-hello-world': {
                 //     title: 'Hello World',
@@ -958,7 +971,7 @@ docpadConfig = {
                 "slot-no-coffee-0": {"break_key": "break-no-coffee"},
                 "slot-1": {
                     "venue-epassi" : {
-                        "talk_key":"talk-tbd"
+                        "talk_key":"talk-evolving-mobile-app"
                     },
                     "venue-allegro" : {
                         "talk_key":"talk-breaking-the-monolith"

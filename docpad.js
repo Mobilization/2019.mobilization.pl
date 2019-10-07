@@ -927,7 +927,7 @@ docpadConfig = {
                     "description_html": "Writing secure code is probably one of the most difficult task to accomplish while developing complex mobile applications. Testing the security of our app before publishing it has become one fundamental step on the app's lifecycle. In this talk, we will analyze real-world vulnerabilities and discuss how to identify and correct them before attackers can compromise the security of our application.",
                     "speakers_keys": ['speaker-andrea-posemato'],
                     "language": "EN",
-                    "audience_level" : "Beginner"
+                    "audience_level" : "Advanced"
                 },
             },
             breaks: {

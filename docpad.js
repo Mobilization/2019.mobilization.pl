@@ -682,6 +682,15 @@ docpadConfig = {
                     "bio_html": "I am a passionate software engineer, currently working in ePassi Oy. I have been working on android and iOS app development for six years, besides that I'm also very interested in backend development. I'm keen on better quality of software, in my spare time I work on my hobby projects as a software craftman.",
                     "photo_url": speakersImgBaseUrl + "xi-chen.png",
                 },
+                "speaker-andrea-posemato": {//94
+                    "firstname": "Andrea",
+                    "lastname": "Possemato",
+                    "twitter" : "https://twitter.com/@_pox_",
+                    "github" : "https://github.com/dpox",
+                    "linkedin" : "https://www.linkedin.com/in/andrea-possemato-93a8b1aa",
+                    "bio_html": "Andrea is a Security R&D Engineer at IDEMIA and currently he is enroll as PhD student at the Software and System Security group of EURECOM (France). His main research interests are focusing on Android, where he is trying to solve some open research problems spanning from UI to System Security. When he is not focus on finding vulnerable components, he is messing up with fuzzing and reversing Android apps. CTF player/lover.",
+                    "photo_url": speakersImgBaseUrl + "andrea-posemato.png",
+                },
             },
             talks: {
                 "talk-tbd": {
@@ -913,6 +922,13 @@ docpadConfig = {
                     "language": "EN",
                     "audience_level" : "Beginner"
                 },
+                "talk-journey-into-security": {//93
+                    "title": "A journey into the Android Security world",
+                    "description_html": "Writing secure code is probably one of the most difficult task to accomplish while developing complex mobile applications. Testing the security of our app before publishing it has become one fundamental step on the app's lifecycle. In this talk, we will analyze real-world vulnerabilities and discuss how to identify and correct them before attackers can compromise the security of our application.",
+                    "speakers_keys": ['speaker-andrea-posemato'],
+                    "language": "EN",
+                    "audience_level" : "Beginner"
+                },
             },
             breaks: {
                 'break-registration': {
@@ -980,7 +996,7 @@ docpadConfig = {
                         "talk_key":"talk-android-auto"
                     },
                     "venue-idemia" : {
-                        "talk_key":"talk-tbd"
+                        "talk_key":"talk-journey-into-security"
                     },
                     "venue-intive" : {
                         "talk_key":"talk-how_to_talk_to_computers"

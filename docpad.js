@@ -514,7 +514,7 @@ docpadConfig = {
                 "speaker-michal-baran": {//70
                     "firstname": "Michał",
                     "lastname": "Baran",
-                    "bio_html": "Michal is an Android developer, loving Flutter. With 3 years of mobile development. Technical articles writer. Passionate about scalable, lasting solutions.<br>Both are working together in Ocado Technology in London.",
+                    "bio_html": "Michal is an Android developer, loving Flutter. With 3 years of mobile development. Technical articles writer. Passionate about scalable, lasting solutions.<br>He is working in Miquido in Cracow.",
                     "www": "",
                     "twitter": "https://twitter.com/@baranmichal25",
                     "github": "https://github.com/baranmichal25",

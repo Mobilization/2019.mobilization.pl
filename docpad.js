@@ -255,6 +255,11 @@ docpadConfig = {
                         "name": "IT Łódź",
                         "link": "http://tiny.cc/itlodz",
                         "logo_url" : partnersImgBaseUrl + 'itlodz-square.png'
+                    },
+                    {
+                        "name": "DevFest.cz",
+                        "link": "https://devfest.cz",
+                        "logo_url" : partnersImgBaseUrl + 'devfest_cz_square.png'
                     }
                 ],
                 media : [

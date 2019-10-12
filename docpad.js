@@ -624,7 +624,7 @@ docpadConfig = {
                 "speaker-dylan-drost": {//56
                     "firstname": "Dylan",
                     "lastname": "Drost",
-                    "bio_html": "Freelance Android and Flutter Developer working on projects like Schiphol, SnappCar and Karify. As the resident geek at home I do the occasional web development/server admin for https://bettyskitchen.nl a food blog which is run by my wife with over a 1300 post and around 100/150k visitors per month.",
+                    "bio_html": "Freelance Android and Flutter Developer working on projects like Schiphol, SnappCar and Karify. As the resident geek at home I do the occasional web development/server admin for a <a href='https://bettyskitchen.nl'>food blog</a> which is run by my wife with over a 1300 post and around 100/150k visitors per month.",
                     "www": "https://dynadroid.nl",
                     "twitter": "https://twitter.com/@aegis321",
                     "github": "https://github.com/aegis123",

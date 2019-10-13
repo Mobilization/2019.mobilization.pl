@@ -669,7 +669,7 @@ docpadConfig = {
                 "speaker-kassem-wridan": {//91
                     "firstname": "Kassem",
                     "lastname": "Wridan",
-                    "bio_html": "An iOS developer @ Bloomberg London",
+                    "bio_html": "Kassem Wridan is a software engineer at Bloomberg London, working in the iOS Platform team. He is passionate about UI navigation paradigms, testing and as of late, Xcode project tooling!<br/><br/>From time to time Kassem blogs about his technical findings, and in his spare time is learning partner dancing and experimenting with filmography.",
                     "www": "https://www.matrixprojects.net",
                     "twitter": "https://twitter.com/kwridan",
                     "github": "https://github.com/kwridan",

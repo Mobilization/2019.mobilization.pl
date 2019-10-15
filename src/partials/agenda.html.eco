@@ -10,6 +10,27 @@
          		</div>
 			</div>
         </div>
+        <div class="row" style="padding-bottom: 50px; padding-top: 50px">
+            <% for workshop_key, workshop of @site.workshops: %>
+                <div class="col-6 wow fadeInDown" data-wow-delay="0.2s">
+                    <h3>
+                        <%= workshop.datetime %> - Workshop
+                    </h3>
+                    <h4><%= workshop.title %></h4>
+                    <% for speaker_key in workshop.speakers_keys: %>
+                    <% speaker = @site.speakers[speaker_key] %>
+                    <p><small><%= speaker.firstname %> <%= speaker.lastname %></small></p>
+                    <% end %>
+                </div>
+            <% end %>
+        </div>
+        <div class="row">
+        	<div class="col-12">
+				<h2 class="wow fadeInDown" data-wow-delay="0.2s">
+					Saturday 26th - Talks
+				</h2>
+			</div>
+        </div>
         <div class="schedule-area row wow fadeInDown" data-wow-delay="0.3s">
             <div class="schedule-tab-title col-md-12 col-lg-12 col-xs-12">
                 <ul class="nav nav-tabs" id="myTab" role="tablist">

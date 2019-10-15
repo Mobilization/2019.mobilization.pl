@@ -260,6 +260,11 @@ docpadConfig = {
                         "name": "DevFest.cz",
                         "link": "https://devfest.cz",
                         "logo_url" : partnersImgBaseUrl + 'devfest_cz_square.png'
+                    },
+                    {
+                        "name": "Łódź wiOSłuje",
+                        "link": "https://www.facebook.com/lodzwiosluje/",
+                        "logo_url" : partnersImgBaseUrl + 'lodz-wiosluje.png'
                     }
                 ],
                 media : [

@@ -467,7 +467,7 @@ docpadConfig = {
                 "speaker-tomasz-grynfelder-renk": {//47
                     "firstname": "Tomasz",
                     "lastname": "Grynfelder-Renk",
-                    "bio_html": "iOS Developer by heart and practice, working as a Mobile Team Lead at Applause App Quality, Inc.",
+                    "bio_html": "iOS Developer by heart and practice.",
                     "www": "https://grynfelder.pl",
                     "twitter": "https://twitter.com/tgrynfelder",
                     "github": "https://github.com/tgrf",

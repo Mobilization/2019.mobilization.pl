@@ -138,7 +138,7 @@ docpadConfig = {
                     ,
                     {
                         "name" : "StickersCraft",
-                        "link" : "http://www.stickerscraft.com?utm_source=mobilization&utm_medium=display&utm_campaign=conf_spons",
+                        "link" : "http://www.stickerscraft.com/?utm_source=conf_spons&utm_medium=display&utm_campaign=mobilization",
                         "logo_url" : sponsorsImgBaseUrl + "stickers-craft.png",
                     }
                 ]

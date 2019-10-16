@@ -16,7 +16,11 @@
                     <h3>
                         <%= workshop.datetime %> - Workshop
                     </h3>
-                    <h4><%= workshop.title %></h4>
+                    <h4>
+                    <a style="cursor: pointer" onclick="window.location=('#<%= workshop_key %>')" data-dismiss="modal">
+                        <%= workshop.title %>
+                    </a>
+                    </h4>
                     <% for speaker_key in workshop.speakers_keys: %>
                     <% speaker = @site.speakers[speaker_key] %>
                     <p><small><%= speaker.firstname %> <%= speaker.lastname %></small></p>

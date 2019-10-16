@@ -83,19 +83,6 @@ docpadConfig = {
                     "name" : "BinarApps",
                     "logo_url" : sponsorsImgBaseUrl + "binarapps-300-300.png",
                     "link" : "https://binarapps.com/"
-                },
-                {
-                    "name" : "Reserved",
-                    "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
-                },
-                {
-                    "name" : "Reserved",
-                    "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
-                },
-                {
-                    "name" : "Free",
-                    "logo_url" : sponsorsImgBaseUrl + "mobilization-free.png",
-                    "link" : "mailto:sponsors@mobilization.pl?subject=Mobilization IX sponsorship offer&body=Dear Mobilization, We are interested in sponsoring Mobilization IX. Please can you send a sponsorship offer for 2019"
                 }
                 ],
                 silver: [
@@ -108,17 +95,7 @@ docpadConfig = {
                     "name" : "Mobica",
                     "logo_url" : sponsorsImgBaseUrl + "mobica-square.png",
                     "link" : "https://www.mobica.com"
-                },
-                {
-                    "name" : "Free",
-                    "logo_url" : sponsorsImgBaseUrl + "mobilization-free.png",
-                    "link" : "mailto:sponsors@mobilization.pl?subject=Mobilization IX sponsorship offer&body=Dear Mobilization, We are interested in sponsoring Mobilization IX. Please can you send a sponsorship offer for 2019"
-                },
-                {
-                    "name" : "Free",
-                    "logo_url" : sponsorsImgBaseUrl + "mobilization-free.png",
-                    "link" : "mailto:sponsors@mobilization.pl?subject=Mobilization%20IX%20sponsorship%20offer&body=Dear%20Mobilization%2C%20We%20are%20interested%20in%20sponsoring%20Mobilization%20IX.%20Please%20can%20you%20send%20a%20sponsorship%20offer%20for%202019"
-                },
+                }
                 ],
                 afterparty: [
                 {
@@ -157,6 +134,12 @@ docpadConfig = {
                         "name" : "Workday",
                         "link" : "https://www.workday.com/en-us/company/careers.html",
                         "logo_url" : sponsorsImgBaseUrl + "workday-square.png",
+                    }
+                    ,
+                    {
+                        "name" : "StickersCraft",
+                        "link" : "http://www.stickerscraft.com?utm_source=mobilization&utm_medium=display&utm_campaign=conf_spons",
+                        "logo_url" : sponsorsImgBaseUrl + "stickers-craft.png",
                     }
                 ]
             },

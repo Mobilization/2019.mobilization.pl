@@ -756,7 +756,7 @@ docpadConfig = {
                 },
                 "talk-kotlin_native_and_multiplatform_development": {//21
                     "title": "Kotlin/Native and Multiplatform Development ",
-                    "description_html": "This workshop will introduced you to Kotlin/Native and build a Kotlin Multiplatform app that runs on both iOS and Android using shared Kotlin code. We will cover following topics in this workshop Introduction to Kotlin/Native and Multiplatform Your First Kotlin/Native Program Creating a Multiplatform Project Shared Library from Android & iOS Networking & Concurrency using Ktor & Coroutines Designing Android & iOS user interface Debugging multiplatform Project Drawbacks",
+                    "description_html": "This workshop will introduced you to Kotlin/Native and build a Kotlin Multiplatform app that runs on both iOS and Android using shared Kotlin code. We will cover following topics in this workshop <ul><li>Introduction to Kotlin/Native and Multiplatform <li>Your First Kotlin/Native Program <li>Creating a Multiplatform Project <li>Shared Library from Android & iOS<li>Networking & Concurrency using Ktor & Coroutines<li>Designing Android & iOS user interface<li>Debugging multiplatform<li>Project Drawbacks</ul>",
                     "speakers_keys": ['speaker-vipul-shah'],
                     "language": "EN",
                     "audience_level" : "Intermediate"

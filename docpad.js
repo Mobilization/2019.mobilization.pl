@@ -116,6 +116,11 @@ docpadConfig = {
                         "logo_url" : sponsorsImgBaseUrl + "heryson_square.png",
                     },
                     {
+                        "name" : "JungleCandy Software",
+                        "link" : "https://github.com/JungleCandy/",
+                        "logo_url" : sponsorsImgBaseUrl + "jungle-candy.png",
+                    },
+                    {
                         "name" : "k7",
                         "link" : "https://k7.eu",
                         "logo_url" : sponsorsImgBaseUrl + "k7_square.png",

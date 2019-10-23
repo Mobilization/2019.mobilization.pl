@@ -253,6 +253,11 @@ docpadConfig = {
                         "name": "Łódź wiOSłuje",
                         "link": "https://www.facebook.com/lodzwiosluje/",
                         "logo_url" : partnersImgBaseUrl + 'lodz-wiosluje.png'
+                    },
+                    {
+                        "name": "Flutter Łódź Meetup",
+                        "link": "https://www.meetup.com/pl-PL/%C5%81od%C5%BA-Flutter-Meetup/",
+                        "logo_url" : partnersImgBaseUrl + 'flutter_lodz_meetup.png'
                     }
                 ],
                 media : [
